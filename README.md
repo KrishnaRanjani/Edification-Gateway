@@ -1,1 +1,1 @@
-# edification-gateway
+# Edification-gateway
