@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip5">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_house_keeping"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in House Keeping is a 1 year Diploma Certification Course. This course provides proficiency in House Keeping Management by preparing the candidates for all housekeeping and its related operations including ground maintenance, mechanical services, project management services, planning, and designing services.Candidates who have completed their 10+2 examination or an equivalent from a recognized board with aggregate of 55% marks are eligible for Diploma in House Keeping course.
+Diploma in House Keeping course offers all the basic skills in housekeeping and knowledge needed for working. This course will teach students all the housekeeping essentials, from responsibilities and roles and handle laundry to room preparation procedures and understanding cleaning products. Students will learn all the dimensions of housekeeping management as well as required skills and knowledge to be employed in growing industries like hospitals, hotels."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".skgko">
+
+
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#000080"
+                android:background="#f0ffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="350dp"
+                android:layout_marginTop="10dp"
+                android:text="SKGKO:"
+                android:textSize="30dp"
+                android:id="@+id/skgko"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="35dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Smart Kid General Knowledge Olympiad."
+                android:textSize="25dp"
+                android:id="@+id/skgko1"
+                android:textStyle="bold"/>
+        </TableRow>
+
+
+        -<TableRow>
+
+        <TextView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="230dp"
+            android:layout_marginTop="20dp"
+            android:text="Medium of examination:"
+            android:textSize="20dp"
+            android:id="@+id/skgko2"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#2B65EC"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginTop="10dp"
+                android:text="ENGLISH "
+                android:textSize="20dp"
+                android:id="@+id/skgko3"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Month of examination:"
+                android:textSize="20dp"
+                android:id="@+id/skgko4"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#2B65EC"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginTop="10dp"
+                android:text="December"
+                android:textSize="20dp"
+                android:id="@+id/skgko5"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#6f4e37"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="DESCRIPTION:"
+                android:textSize="20dp"
+                android:id="@+id/skgko6"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="10dp"
+                android:text="       The Smart Kid General Knowledge Olympiad, a test of competence and proficiency in General Knowledge, (Based on subjects like History, Geography, General Science, Current affairs and sport etc.) is held annually at the national levels based on syllabus prescribed by CBSE/ICSE and the State Boards."
+                android:textSize="20dp"
+                android:id="@+id/skgko7"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#FF0000"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="20dp"
+                android:text="Click here to get more information."
+                android:textSize="20dp"
+                android:id="@+id/skgko8"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

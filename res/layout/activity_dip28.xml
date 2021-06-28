@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip28">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_mechanical_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Mechanical Engineering is a 10th-level Diploma course involving professional specialization in the field of designing. Mechanical Engineering is a field of engineering that involves the application of the standards of Material Science for Investigation, Planning, Assembling, Upkeep of mechanical frameworks.The course is 3-year long in duration, and the minimum eligibility for it is the successful completion of the 10+2 level of education, in Science streaMechanical engineering is one of the main engineering disciplines that include the application of laws of physics for Design, Analysis and Manufacturing of mechanical systems.
+Students enrolled to the course are taught to make and collect motors and structures, control plants and vehicles of all sizes, understand concepts central to the discipline, such as: Mechanics, Kinematics, Fluid Mechanics, Energy and vitality.Students are also taught to use the center standards in the field to plan and inspect vehicle engines, watercraft, aircraft, warming and cooling frameworks, industrial equipment and machinery, robotics, medical devices, and such.
+"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

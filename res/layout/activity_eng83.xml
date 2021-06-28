@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng83">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/mining_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Mining engineering is an engineering discipline that applies science and technology to the extraction of minerals from the earth. Mining engineering is associated with many other disciplines, such as mineral processing, Exploration, Excavation, geology, and metallurgy, geotechnical engineering and surveying. A mining engineer may manage any phase of mining operations – from exploration and discovery of the mineral resource, through feasibility study, mine design, development of plans, production and operations to mine closure."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

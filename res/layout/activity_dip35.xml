@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/texture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dip35">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_textile_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Textile Designis a 1-year diploma level fashion designing course. The basic eligibility of this course is  10+2 with at least 55% of marks.  Diploma in Textile Designis a course that is related to textile design that can also be studied alongside other design majors such as Fashion Designing. This course is helpful in providing an opportunity for the candidates to provide specialized knowledge and skills including the ability to develop design concepts, generate ideas and execute a range of screen printed, machine knitted or woven fabrics for a variety of applications and technical specifications. The degree course will make them eligible to take up the job of a teacher in institutes that impart training course in textile design."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

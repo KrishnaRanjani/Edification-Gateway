@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exam10_home">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/xam10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:text="select your intertest exam"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a1"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="ASSET" />
+
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a2"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="CPYLS" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a3"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="FAE"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a4"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="FYJC" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a5"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="Geo Genius" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a6"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IAIS" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a7"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IAR" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a8"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IASR" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a9"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IEO" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a10"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IESO" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a11"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="INMR" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a12"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="INO" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a13"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IOM" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a14"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IOS" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a15"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="KO" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/a16"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="KVPY" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a17"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="NBO" />
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/a18"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="NCO" />
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/a19"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="NEET" />
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/a20"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="NIMO" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a21"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="NLSTSE" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/a22"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="NSO" />
+        </TableRow>
+ <TableRow>
+            <Button
+                android:id="@+id/a23"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="NTSA"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a24"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="NTSE" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/a25"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="Silverzone Olympiads" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a26"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="SKGKO" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a27"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="SOF" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a28"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="Technothlon" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/a29"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="UCO" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/a30"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="ZIO" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

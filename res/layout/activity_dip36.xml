@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/texture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dip36">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/travel_and_tourism"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Travel and Tourism is a 3-year course. Eligibility for the course is a 10+2, preferably with Commerce subjects, with a minimum aggregate score of 50%.  Diploma in Travel and Tourism programme attracts students from all over the world, giving them the highest quality academic and practical learning. It is designed such that classroom training is reinforced with on-the-job industrial exposure so as to sufficiently hone the skills and techniques learned.The Government is giving much importance to the tourism sector.Travel and Tourism management professionals manage the accommodation, travel modes, tour program and overall stay of such tourists in India."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

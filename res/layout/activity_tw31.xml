@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tw31">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aaf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:text="RIE
+"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="350dp"
+                android:layout_marginLeft="30dp"
+                android:background="#f0ffff"
+                android:textColor="#000080"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aaf1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="Regional institute of education common entrance examination
+"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aaf2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="230dp"
+                android:text="Medium of examination:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aaf3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:text="ENGLISH"
+                android:textColor="#2B65EC"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aaf4"
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:text="Month  of examination:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aaf5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:text="June
+"
+                android:textColor="#2B65EC"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aaf6"
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:text="DESCRIPTION:"
+                android:textColor="#6f4e37"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aaf7"
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="190dp"
+                android:text="           The National Council of Educational Research and Training (NCERT) conducts Common Entrance Examination (CEE) in order to provide admission to candidates in teaching courses offered at Prarambh and Regional Institutes of Education (RIEs) located at Ajmer, Bhubaneswar, Bhopal, Mysore, and Shillong. B.Sc. B.Ed. / BA B.Ed 4 Year /
+M Sc B Ed "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aaf8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:text="Click here to get more information."
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

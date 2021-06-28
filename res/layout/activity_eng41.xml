@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".eng41">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/electronics_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Electronics Engineering is a branch of electrical engineering. The discipline studies the use of electromagnetic spectrum in a broad way and is related to the application of electronic devices like integrated circuits, transistors etc. It also deals with the design and application of circuitry and equipment for power generation and distribution, machine control, and communications. Students learn to design electronic circuits, computer systems and also develop control systems. BE/B.Tech in Electronics Engineering is a four-year program. The sub-disciplines of Electronics Engineering include power, control, electronics, microelectronics and Signal Processing, Telecommunications, Instrumentation, and Computers. One can pursue M.Tech in Electronics Engineering after successful completion of BE/B.Tech."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

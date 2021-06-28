@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng39">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#000080"
+                android:textSize="25dp"
+                android:text="@string/electrical_and_instrumentation_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       The discipline of Electrical and Instrumentation Engineering deals with the design of devices to measure physical quantities such as pressure, flow and temperature. It basically focuses on the study and application of electricity, electronics, and electromagnetism. Instrumentation engineering is a specialisation on the principle and operation of measuring instruments used in design and configuration of automated systems in electrical, pneumatic domains etc. BE/B.Tech in Electricity and Instrumentation Engineering is a 4-year programme. Industries with automated processes, such as chemical or manufacturing plants require Electricity and Instrumentation Engineering graduates for improving system productivity, reliability, safety, optimisation, and stability. The design of such instrumentation requires a good understanding of physics that often extends beyond electromagnetic theory. Instrumentation is often dealt as the sensors of larger electrical systems. One can pursue M.Tech in Electricity and Instrumentation Engineering after successful completion of BE/B.Tech."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

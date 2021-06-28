@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip2">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_bakery_and_confectionary"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="         Diploma in Bakery and Confectionery is a 1-year diploma level program in confectionary and Pattiesere study. The course can be undertaken by candidates who have completed their 10+2 examination or an equivalent examination in any relevant discipline. The course study comprises of internship, theoretical and practical study. The average program fee for Diploma in Bakery and Confectionery ranges between INR 25,000 to 50,000, which will differ for different institutions and colleges.
+Diploma in Bakery and Confectionery program can be pursued by candidates after the completion of their 12th-grade examination. The course is formulated to provide candidates who aspire to enter the field of Bakery and make their career in the field. Through this program students gain advanced training and knowledge in the field, providing a strong foundation for students in pursuing the future study.
+"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

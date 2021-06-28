@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".eng99">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/power_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="        Power engineering, also called power systems engineering, is a subfield of electrical engineering that deals with the generation, transmission, distribution and utilization of electric power, and the electrical apparatus connected to such systems. Although much of the field is concerned with the problems of three-phase AC power – the standard for large-scale power transmission and distribution across the modern world – a significant fraction of the field is concerned with the conversion between AC and DC power and the development of specialized power systems such as those used in aircraft or for electric railway networks. Power engineering draws the majority of its theoretical base from electrical engineering."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link99"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

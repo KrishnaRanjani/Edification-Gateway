@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".med17">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="Bachelor in Psychology"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginRight="110dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/psy"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"
+                android:layout_marginRight="190dp"
+                android:text="          In BA Psychology, students learn mainly about the processing of the human mind and human behaviour. They study how humans behave differently in different circumstances while dealing with different sets of people. On the basis of this, various conclusions are drawn.
+The average course fee ranges from INR 20,000 to INR 3,00,000 depending upon the college in which admission is sought. The graduates get job opportunities in hospitals, educational institutes, corporate organizations, etc. The average starting salary for such graduates is something around INR 1.2 to INR 3 Lakhs per annum. "/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/me17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

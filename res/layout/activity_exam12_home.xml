@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exam12_home">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="AFMC"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="AIEEA"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="AIEEE"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="AIIMS"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="AIIMS-b.sc"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="AILET"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="AIMNET"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="AIPMT"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="AIPVT"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="BITSAT"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="CA programme"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="CIEFL"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="CLAT"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="COMEDK-UGET"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="FDDI Selection Test"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="HSEE"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="ICSI"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="IIST"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="Jee-Advanced"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="JEE-Main 1"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="JEE-Main 2"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="jipmer"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="JNU exam"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="NATA"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="NCHMCT"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b26"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="NDA and NA"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b27"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="NEET-UG"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b28"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="NID NEED"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b29"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="NIFT"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="NISER"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b31"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="217dp"
+                android:text="RIE"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng36">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000080"
+                android:text="@string/electrical_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Electrical engineering, one of the core courses of engineering discipline deals with the study of design, development, and maintenance of electrical systems and their components, ensuring quality, safety, reliability, and sustainability. The course focuses on the manufacturing of electrical equipment used in a number of sectors including construction and building and the production and distribution of power. Students pursuing electrical engineering study about semiconductors and microprocessors. The undergraduate course will award a B.Tech / B.E. degree and the postgraduate course, an M.Tech."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

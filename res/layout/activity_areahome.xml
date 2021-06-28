@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backone"
+    tools:context=".areahome">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <TableRow>
+        <TextView
+            android:id="@+id/exre32"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="55dp"
+            android:textColor="#7d0552"
+            android:textStyle="bold"
+            android:text="AREA OF INTEREST"
+            android:textSize="25sp"
+            android:layout_marginStart="13dp" />
+    </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="160dp"
+                android:layout_marginTop="25dp"
+                android:layout_height="140dp"
+                android:src="@drawable/logo"
+                android:layout_marginStart="20dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Social"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_marginTop="35dp"
+                android:text="Social"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aesthetic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Aesthetic"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/eng_qual"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Engineering"/>
+        </TableRow>
+        <TableRow>
+            <Button
+            android:id="@+id/medical_qual"
+            android:text="Medicine"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/defense_qual"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Deffence"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/artdj"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="arts"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

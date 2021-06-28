@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng64">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/geotechnical_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       The geotechnical engineer plays a key role in most civil engineering projects. Geotechnical engineers assess the properties and behaviour of soil and rock formations. It is a branch of civil engineering and deals with the engineering behaviour of subsurface or earth materials. BE/B.Tech in Geotechnical Engineering is a 4-year programme. The Physico-chemical behaviour of soils, strength and deformation behaviour of soils, soil dynamics and earthquake engineering and machine foundations are some of the areas of study. One can pursue M.Tech in Geotechnical Engineering after successful completion of BE/B.Tech."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

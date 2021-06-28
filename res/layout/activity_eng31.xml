@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng31">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#000080"
+                android:textSize="25dp"
+                android:text="@string/civil_and_structural_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Civil and Structural Engineering is a specialization of the broad domain of Civil Engineering. It can be studied as a separate discipline as well. Civil and Structural Engineering deals with the analysis and design of structures. They include buildings, bridges, towers, flyovers, tunnels, offshore structures like oil and gas fields in the sea, aerostructure and other structures that support or resists the load. Civil and structural engineers design buildings and non-building structures or machinery, equipment, vehicles etc. BE/B.Tech in Civil and Structural Engineering is a 4-year program. Structural engineers take into consideration the required strength and stability of structures. Structural engineering design utilizes a number of simple structural elements to build complex structural systems. One can pursue an M.Tech in Civil and Structural Engineering after BE/B.Tech."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

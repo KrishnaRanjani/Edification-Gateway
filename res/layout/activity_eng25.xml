@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng25">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000080"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/ceramics_and_cement_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Ceramics and Cement Engineering is the science of creating objects from inorganic and non-metallic objects using heat, lowering temperatures etc. Studies relating to purification of raw materials, production of chemical compounds and their formation into components and their structure, composition and properties are part of the programme. BE/B.Tech in Ceramics and Cement Engineering is a four-year program. The curriculum includes courses like Materials Thermodynamics; Raw Materials Analysis; Ceramic Processing; Drawing of Refractory Lining and Joints; Ceramic Fabrication; Ceramic Equipment Design; Sensor Technology; Electrical and Magnetic Ceramics; and Pollution and Waste Management in Ceramic Industry. One can pursue an M.Tech in Ceramics and Cement Engineering after successful completion of BE/B.Tech."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng40">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/electronics_control_systems_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       With the increase in usage of digital technology, the requirement for electronics control systems engineers has increased in order to resolve various issues related to digital control systems. Under the program, students get to study about the impact of electrons that are required to make equipment, device, and systems. The course covers electromagnetic field theory, digital logic design, and application. Engineering graduates would acquire knowledge about microelectronic fabrication, power electronics, microelectromechanical systems and control systems engineering, radar systems, remote sensing and microwave electronics. The areas on which budding engineers would gain knowledge include power electronics and devices, artificial intelligence and nanoelectronics technology."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng98">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/power_electronics"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="        Power electronics is the application of solid-state electronics to the control and conversion of electric power.
+The first high power electronic devices were mercury-arc valves. In modern systems, the conversion is performed with semiconductor switching devices such as diodes, thyristors, and power transistors such as the power MOSFET and IGBT. In contrast to electronic systems concerned with transmission and processing of signals and data, in power electronics substantial amounts of electrical energy are processed. An AC/DC converter (rectifier) is the most typical power electronics device found in many consumer electronic devices, e.g. television sets, personal computers, battery chargers, etc. The power range is typically from tens of watts to several hundred watts. In industry a common application is the variable speed drive (VSD) that is used to control an induction motor. The power range of VSDs start from a few hundred watts and end at tens of megawatts.
+"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link98"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture_pg"
+    tools:context=".home">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+
+        <TextView
+            android:id="@+id/karuvaiche"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="46dp"
+            android:layout_marginTop="95dp"
+            android:textColor="#7d0552"
+            android:textStyle="bold"
+            android:text="Edification Gateway"
+            android:textSize="30dp" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="160dp"
+            android:layout_marginRight="94dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="140dp"
+            android:src="@drawable/kkm" />
+
+</TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="142dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="217dp"
+            android:background="@color/colorwhite"
+            android:text="Get Start"
+            android:textStyle="bold"
+            android:textColor="#571b7e"/>
+    </TableRow>
+</TableLayout>
+</ScrollView>

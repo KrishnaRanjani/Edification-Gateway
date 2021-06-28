@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".eng37">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textColor="#000080"
+                android:textSize="25dp"
+                android:text="@string/electrical_and_communications_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Electrical and Communications is a discipline within electrical engineering. The course involves study of application of mathematical and scientific principles to design and integrate electrical and electronics systems. The course also includes the study of mechanism involved in generation of electrical power. Students also learn about development and operation of communication technology. The course includes telecommunication and computer programming apart from core subjects like electronics engineering, telecommunications engineering, laser and optical engineering and integrated circuit design. Completion of postgraduate and undergraduate degrees in Electrical and Communications engineering opens doorways for students to work in different job profiles like service engineers, software analyst, network planning engineer and field test engineer."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

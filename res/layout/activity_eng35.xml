@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".eng35">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000080"
+                android:text="@string/dairy_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Dairy Technology is a course which focuses on dairy products and is a part of the food technology and processing industry. Students pursuing dairy technology learn about milk processing as well the manufacturing process for its by-products. The study includes quality control at the time of processing of products. Students involve in gaining technical knowledge about dairy processing equipment. This includes analysis by students on production units like dairy plants and ice cream units. The course focuses on pasteurisation an important aspect of dairy technology."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

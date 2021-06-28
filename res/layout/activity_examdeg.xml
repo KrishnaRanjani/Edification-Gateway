@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".examdeg">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/xamdeg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:text="select your intertest exam"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c1"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="UPSC" />
+
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c2"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IFS" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c3"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="ECE" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c4"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="Geologist" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c5"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="SCRA" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c6"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="NDA and NA" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c7"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="CDS" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c8"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="CMS" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c9"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IES/ISS" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c10"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="Section Officers/Stenographers" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c11"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="CPF" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c12"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="AG-SCC" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c13"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="AARS" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c14"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="Clerks Grade Exam" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c15"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="SSC CGL" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/c16"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="SSC CMP" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c17"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="Divisional Accountants" />
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/c18"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IT/EI" />
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/c19"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="SSC CPO (SI)" />
+        </TableRow>
+
+
+        <TableRow>
+            <Button
+                android:id="@+id/c20"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="Stenographers" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c21"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="I.A.F Airman" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/c22"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="I.A.F Airman non tech" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/c23"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="I.A.F. Airman (E I T)" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c24"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="L.I.C Officers’ Exam" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/c25"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="G.I.C Officers’ Exam" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c26"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="CAT" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c27"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="GMAT" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c28"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="XAT" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/c29"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="MAT" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/c30"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp"
+                android:text="IBPS PO" />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

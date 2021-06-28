@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tw1">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:text="AFMC"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="350dp"
+                android:layout_marginLeft="30dp"
+                android:background="#f0ffff"
+                android:textColor="#000080"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aa1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="Armed Forces Medical College  Entrance Exam"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aa2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="230dp"
+                android:text="Medium of examination:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aa3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:text="ENGLISH"
+                android:textColor="#2B65EC"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aa4"
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:text="Month  of examination:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aa5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:text="MAY"
+                android:textColor="#2B65EC"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aa6"
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:text="DESCRIPTION:"
+                android:textColor="#6f4e37"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aa7"
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="190dp"
+                android:text="            The admission into the MBBS course in the Armed Forces Medical College (AFMC) is provided by NEET scorecard. AFMC 2019 Admissions is known as Armed Forces Medical College MBBS entrance exam. It is the medical entrance exam, which is popularly conducted by Armed Forces Medical College, Pune.M.B.B.S(Should Serve 7 Years in Armed Forces)"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aa8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:text="Click here to get more information."
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</ScrollView>

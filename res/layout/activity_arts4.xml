@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts4">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:text="Bachelor of Fine arts"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="279dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:layout_marginRight="190dp"
+            android:text="          BFA or Bachelor of Fine Arts is an undergraduate degree course which deals with the study of Visual or Performing Arts. The course is sometimes also referred to as Bachelor of Visual Arts (BVA) in which the study of Visual Arts includes subjects such as painting, sculpture, photography, literature, animation, etc. On the other hand, the study of Performing Arts involves subjects such as dance, theatre and music. A Bachelor of Fine Arts degree often requires an area of specialisation to be chosen by the candidate as per his/her interest.
+
+Depending on the candidate’s chosen specialisation, BFA is typically a three to four year duration course that can be pursued as a full-time, part-time, online or distance-learning programme.
+
+A BFA course not only educates but reforms the skills of candidates to enable them become artists in their chosen field. Career opportunities for fine arts graduates are ample wherein they can choose to be an art teacher, writer, fine artist, actor, art director, and a lot more. These days many students are opting for a career in Fine Arts not only to earn high remuneration but also to gain popularity and prestige.
+
+Aspirants can choose an area in which they can specialise in subjects which can not only enhance their skills and fine-tune the aspirant’s creativeness, it also allows candidates to explore varied options.
+
+The BFA assists the candidate grow in the area of subject chosen. From fine arts to visual arts to performing arts, here aspirants can check colleges according to location which can help candidates pursue BFA."/>
+    </TableRow>
+    </TableLayout>
+</ScrollView>

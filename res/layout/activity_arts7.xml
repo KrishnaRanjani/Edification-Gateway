@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts7">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Bachelor of Journalism and Mass Communications"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          BJMC (Bachelor of Journalism and Communication) is a three-duration undergraduate degree course for candidates who wish to build their career in the field of journalism and mass communication. After successfully completing the course candidates are able to develop as well as refine their skills of gathering, transmitting, and delivering information to a large audience.
+
+Career opportunities for students in the field of mass communication are very high. Candidates who successfully complete BJMC can choose to work for news channels, newspapers, publishing houses, television, radio, internet, etc and earn a healthy remuneration.
+
+Given below are complete requirements of BJMC course in terms of its eligibility criteria, course curriculum, job prospects and more."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

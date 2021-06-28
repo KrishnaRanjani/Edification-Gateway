@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texturepg1"
+    tools:context=".qualtw_home">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/qualtwqhome"
+                android:layout_width="340dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="60dp"
+                android:text="CHOOSE THE COURSE "
+                android:textAlignment="center"
+                android:textColor="@color/earthblue"
+                android:textColorHighlight="#ecc5c0"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginStart="23dp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/logo"
+                android:layout_marginStart="20dp" />
+        </TableRow>
+        <TableRow>
+
+             <Button
+                android:id="@+id/Science"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/plumvelvet"
+                android:textColor="@color/colorwhite"
+                android:textSize="20sp"
+                android:text="@string/science"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="110dp" />
+
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Art"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/plumvelvet"
+                android:textColor="@color/colorwhite"
+                android:textSize="20sp"
+                android:text="@string/arts_course"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="110dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/Commerce"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/plumvelvet"
+                android:textColor="@color/colorwhite"
+                android:textSize="20sp"
+                android:text="@string/commerce"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="110dp" />
+
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

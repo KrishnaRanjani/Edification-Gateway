@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng34">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#000080"
+                android:textSize="25dp"
+                android:text="@string/construction_technology_and_management"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Construction Technology management refers to the discipline of overall planning, coordination and control of projects. It is a branch of Civil Engineering. This course is a combination of civil engineering and construction management. Construction management is the overall planning, coordination, and control of a project from beginning to completion. This course gives the students scientific principles involved in construction, an understanding of the behaviour of construction materials and the fundamentals of structural mechanics. Construction technologists should have good knowledge about different types of materials used for construction, along with testing procedures to assure quality control. The principles of drainage, water supply and distribution, heating and ventilation, and recycling of construction and demolition waste management. The curriculum of this course typically is a mixture of engineering mechanics, engineering design, construction management and general science and mathematics.
+"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

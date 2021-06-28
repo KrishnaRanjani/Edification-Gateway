@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng21">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000080"
+                android:text="@string/biotechnology_and_biochemical_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Biotechnology and Biochemical Engineering focuses on biological sciences, chemical and biochemical engineering, microbiology, chemistry, biochemistry and genetics. Under this programme, students study about genetic technology, and learn how to develop treatments for different diseases. The programme also covers applied enzymology and enzyme technology; metabolic and reaction engineering for biocatalysis and renewable resource utilisation; and glycobiotechnology. While pursuing the course, students are taught as to how the cells, organs and tissues function. Engineers are trained to transform cellular and molecular advances into technologies with an aim to improve the quality of life."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

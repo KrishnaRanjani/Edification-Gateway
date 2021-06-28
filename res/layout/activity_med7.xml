@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".med7">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="Bachelor of Physiotherapy"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginRight="110dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/phy"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"
+                android:layout_marginRight="190dp"
+                android:text="          BPT or Bachelor of Physiotherapy is an undergraduate academic Course in a field of Medical Science known as Physiotherapy. The duration of BPT course is 4½ years including internship of 6 months. Physical Therapy Programs provide core skills like manual therapy, therapeutic exercise and the application of electro physical modalities, to the prospective students. The course focuses on the use of physical therapy, massages, physical movements and exercise to improve and cure injuries, deformities and diseases. Physiotherapy doesn’t rely extensively on the use of drugs and medicine. Instead, it relies on the use of physical treatment to improve the situation."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/me7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

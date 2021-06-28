@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts3">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:text="Bachelor of Management Science"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="279dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:layout_marginRight="190dp"
+            android:text="          Bachelor of Management Studies popularly known as BMS is an undergraduate program for management studies offered by many universities throughout the world. The University of Mumbai introduces this course in the year 1999-2000. The duration to complete this undergraduate course is of 3-years. The three year course is sub divided in to six semesters having theoretical and practical sessions. The main objective of the course is to generate trained managerial professionals in the global market. In addition to business management course, it also helps us to understand how organizations work, how they are managed, and how they interact with local, national and international environments. In the first and second years, students have a variety of choices with an understanding of the role of the core business disciplines and in third year, students will study Organizational Strategy and they will have a choice of subjects from a list of options, based on their own interests and career aspirations like Finance or Marketing. Due to the growing demand of qualified management executives in the corporate world BMS course has a extensive scope in India. Over the years, the program has grown in popularity among Indian students."/>
+    </TableRow>
+    </TableLayout>
+</ScrollView>

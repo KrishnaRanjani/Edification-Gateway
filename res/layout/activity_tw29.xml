@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tw29">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:text="NIFT
+"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="350dp"
+                android:layout_marginLeft="30dp"
+                android:background="#f0ffff"
+                android:textColor="#000080"/>
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aad1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="National Institute of Fashion Technology Entrance Examination
+"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aad2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="230dp"
+                android:text="Medium of examination:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aad3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:text="ENGLISH"
+                android:textColor="#2B65EC"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aad4"
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:text="Month  of examination:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aad5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:text="Jan
+"
+                android:textColor="#2B65EC"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aad6"
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:text="DESCRIPTION:"
+                android:textColor="#6f4e37"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aad7"
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="190dp"
+                android:text="           Fashion Technology / Design Management entrance exam .NIFT Exam Pattern is such that candidates who want to secure admission at NIFT need to appear for two different pen-and-paper-based objective type tests which are called General Ability Test (GAT) and Creative Ability Test (CAT). "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/aad8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:text="Click here to get more information."
+                android:textColor="#FF0000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

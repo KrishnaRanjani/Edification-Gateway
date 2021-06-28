@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip1">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_food_and_beverage_services"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="        Minimum qualification for admission to Diploma Courses in Food Production and Food and Beverage Service is a clear pass in the final examination of 10+2 system of Senior Secondary Examination or its equivalent, with English. A decision of the institute regarding the eligibility shall be final. Even after admission to the Institute if an applicant is at a later date found ineligible on account of supplying false information of false testimonials or for having suppressed any material information, his / her admission will be cancelled and the fee paid will also be forfeited."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

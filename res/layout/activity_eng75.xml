@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng75">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/jute_and_fiber_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Jute and Fiber Technology is a very niche area of textile engineering. Jute is a vegetable fiber that can be spun into coarse, strong threads. Jute is one of the most affordable natural fibers and is second only to cotton in amount produced and variety of uses of vegetable fibers. Jute has multiple uses and it can be utilized in various ways in day to ay lives. Jute is even gradually becoming a part of the fashion industry as well. The technology deals with processing jute plant to produce its by products. The purpose of this program is to train the students to produce technologists for R and D in jute and multi fiber technologies. After completing the course, you can build your career in textile industries, fashion and apparel industries and allied sectors."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip16">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_electronics_and_communication_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Electrical and Electronics Engineering is a 3-year professional course. Minimum eligibility for admission to the course is the successful completion of class X, or equivalent level of education with a minimum aggregate score of 40% with Sc ience and Mathematics, and English as 3 of the main subjects.
+Electronics engineering is a discipline of engineering that deals with the study and design of electronic devices, components and circuits. This discipline uses the principles and concepts of electrical engineering and applied the same principles towards the design and manufacturing of electronic circuits, components and devices.
+"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

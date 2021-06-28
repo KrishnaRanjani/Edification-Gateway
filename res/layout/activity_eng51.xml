@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng51">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/electronics_and_telecommunication_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Electronics and Telecommunication Engineering is a study of various principles and practical aspects related to the designing various telecommunications equipment. Electronics and Telecommunication Engineers develop prototypes of integrated circuit components. B.Tech/BE trains students in dealing with the performance of telecommunication systems. BE/B.Tech in Electronics and Telecommunication Engineering is a 4-year program. Some of the electives that reputed institutes offer under this course include Digital Logic Design, Semiconductor Devices, Network Theory, Signals, and Systems; Analog Circuits, Communication Systems, and Techniques Engineering Electromagnetics. Besides this one can opt for Principles of Digital Communication, Microwave Engineering or Digital Signal Processing. One can pursue M.Tech in Electronics and Telecommunication Engineering after successful completion of BE/B.Tech."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

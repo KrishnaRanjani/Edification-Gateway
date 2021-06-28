@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="earthblue">#0000a0</color>
+    <color name="plumvelvet">#7d0552</color>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip22">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_garment_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Garment technology, as the name implies is a discipline where you learn about the different technical aspects of production of garments. The course is designed for those who have never had any exposure to industry level sewing, but wants to make a career in this field. You look after the technical aspect of production of garments. A fashion technologist will design the new dresses, but it is a garment technologist who decides if the design can actually be created. You also choose the best method for creating the garment and may modify the design as necessary by practical limitation. You have to make sure that the correct techniques and the most appropriate machine is used in the production of the garment. It is also your responsibility to keep an eye on the cost and come up with the most cost effective combination of material and method for the garments. Overall, a person specialized in garment technology looks after the technical aspect of creation of the garments in addition to acting as a consultant to fashion designers and marketing personnel."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

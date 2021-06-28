@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".eng68">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/industrial_and_production_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Industrial and production engineering (IPE) is an interdisciplinary engineering discipline that includes manufacturing technology, engineering sciences, management science, and optimization of complex processes, systems, or organizations. It is concerned with the understanding and application of engineering procedures in manufacturing processes and production methods.[1][2] Industrial engineering dates back all the way to the industrial revolution, initiated in 1700s by Sir Adam Smith, Henry Ford, Eli Whitney, Frank Gilbreth and Lilian Gilbreth, Henry Gantt, F.W. Taylor, etc. After the 1970s, industrial and production engineering developed worldwide and started to widely use automation and robotics."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".dip30">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_medical_laboratory_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Medical Laboratory Technology (DMLT) is a 2-year diploma course pursued after the successful completion of the 10+2 level of education. This medical course involves advanced professional learning in: Prevention , Diagnosis ,Treatment of diseases in patients through clinical laboratory tests.
+This course is an allied health/paramedical course that is concerned with the diagnosis, treatment, and prevention of diseases through clinical laboratory tests.
+Lab Technologists are needed by doctors to help analyze results for treating diseases that they specialize in. The program covers preclinical subjects such as:
+•	Biochemistry
+•	Pathology
+•	Microbiology
+•	Blood Banking"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

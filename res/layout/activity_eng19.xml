@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng19">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#000080"
+                android:textSize="25dp"
+                android:text="@string/biochemical_engineering"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/kvk"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/biomed"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Biomedical Engineering, also referred to as Bioengineering, BioMed or BME, is a multidisciplinary STEM field that combines biology and engineering, applying engineering principles and materials to medicine and healthcare.
+
+The increasing demand for Biomedical Engineers is linked to society’s general shift towards everyday utilisation of machinery and technology in all aspects of life. The combination of engineering principles with biological knowledge to address medical needs has contributed to the development of revolutionary and life-saving concepts"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

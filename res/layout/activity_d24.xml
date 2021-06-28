@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".d24">
+
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#000080"
+                android:background="#f0ffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="350dp"
+                android:layout_marginTop="10dp"
+                android:text="L.I.C Officers’ Exam:"
+                android:textSize="30dp"
+                android:id="@+id/LIC"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="35dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Life Insurance Corporation of India Assistant Administrative Officer"
+                android:textSize="25dp"
+                android:id="@+id/LIC1"
+                android:textStyle="bold"/>
+        </TableRow>
+
+
+        -<TableRow>
+
+        <TextView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="230dp"
+            android:layout_marginTop="20dp"
+            android:text="Medium of examination:"
+            android:textSize="20dp"
+            android:id="@+id/LIC2"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#2B65EC"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginTop="10dp"
+                android:text="ENGLISH"
+                android:textSize="20dp"
+                android:id="@+id/LIC3"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Month of examination:"
+                android:textSize="20dp"
+                android:id="@+id/LIC4"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#2B65EC"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginTop="10dp"
+                android:text=" May"
+                android:textSize="20dp"
+                android:id="@+id/LIC5"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#6f4e37"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="DESCRIPTION:"
+                android:textSize="20dp"
+                android:id="@+id/LIC6"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="10dp"
+                android:text="      LIC's Assistant Administrative Officer  (AAO) Exam gives a direct entry to the officer cadre. Anyone recruited as a direct AAO can hope to reach the highest level, provided his/her performance in the profession is very good.For the recruitment of the Assistant Administrative Officers in Life Insurance Corporation (LIC), a national level Civil Services examination is held once a year. "
+                android:id="@+id/LIC7"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#FF0000"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="20dp"
+                android:text="Click here to get more information."
+                android:textSize="20dp"
+                android:id="@+id/LIC8"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</ScrollView>

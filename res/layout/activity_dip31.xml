@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".dip31">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_plastic_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          After steel, plastics is the most used material and polymer science is a course in demand. The diploma in Plastics Technology is a 3 year course that students can join after completion of their 10th standard or equivalent. The course subjects cover applied mathematics, applied, chemistry, applied physics, applied mechanics, engineering drawing, design of dyes, moulds and plastics process technology and more. Our students are also trained in Professional Communication to make them more confident. Graduating students find attractive job opportunities as technologists and in quality control in both private and public sector companies."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

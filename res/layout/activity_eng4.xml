@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".eng4">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000080"
+                android:text="@string/aero_space_engineering"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/kvk"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/aerospace"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Aerospace engineering is the primary field of engineering concerned with the development of aircraft and spacecraft.[3] It has two major and overlapping branches: aeronautical engineering and astronautical engineering. Avionics engineering is similar, but deals with the electronics side of aerospace engineering.
+Aeronautical engineering was the original term for the field. As flight technology advanced to include vehicles operating in outer space, the broader term aerospace engineering has come into common use.[4] Aerospace engineering, particularly the astronautics branch, is often colloquially referred to as rocket science.
+"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

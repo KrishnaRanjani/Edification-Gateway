@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip24">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_instrumentation_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          All industries require controls and measurements of equipments and parameters leading to automation of industrial processes. Accurate and reliable measurements lead to better quality of products. Hence, quality of measurement and instrumentation is an important aspect studied during the course of instrumentation technology.
+An instrumentation technology program is designed for entry-level technicians. Students are trained to work in places such as chemical plants, electrical power plants, oil refineries and cross-country pipeline companies; they can also work in instrumentation maintenance positions and instrumentation sales.
+"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

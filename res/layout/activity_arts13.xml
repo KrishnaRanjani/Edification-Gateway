@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts13">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Bachelor of Retail Management"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          A bachelor’s degree is an undergraduate degree, usually the first that students acquire when they begin a higher education track. It typically takes four years to complete, though many students are able to complete it in three. Bachelor’s degrees are achieved through a combination of lectures, exams and coursework.
+
+
+
+What is a Bachelor in Retail Management? This degree gives students the skills and knowledge they need to work in a leadership position in the retail field. These skills can be used to embark on a number of different career paths in the retail industry, including retail store management, marketing, purchasing, and supervisor positions at the corporate level. The curriculum in this field covers a combination of retail, leadership and business-related topics.
+
+
+
+A Bachelor in Retail Management is a great way for students to prepare themselves for a future in retail. A number of new workers enter the retail field each year, but many don’t intend to make it a permanent career. For retail workers who are serious about continuing in the industry, a bachelor’s degree is a great way to differentiate themselves from the crowd."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

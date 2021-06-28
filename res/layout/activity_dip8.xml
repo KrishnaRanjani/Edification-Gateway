@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip8">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/hotel_and_hospitality_operations_management"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          The two-year Hospitality - Hotel and Restaurant Operations Management Ontario College Diploma program provides you with specialized managerial skills for the hospitality and tourism industry through a mixture of theory and hands-on classes delivered by industry professionals.The first year of the program provides introductory industry and business courses to help prepare you for entry-level positions. The second year focuses on developing management skills to help solidify long-term career success in the hospitality and tourism industry."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

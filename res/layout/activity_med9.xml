@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".med9">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="Bachelor of Naturopathy and Yoga"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginRight="110dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/you"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"
+                android:layout_marginRight="190dp"
+                android:text="          Naturopathy revolves around the body’s own healing capability and hence encourages healing and self-cleansing. This mechanism lays stress on increasing immunity as well as detoxification of body. These are essential for a healthy body and mind. Hence, a person having done Bachelor of Naturopathy and Yogic Sciences (BNYS) will focus on working closely with patient’s symptoms as well as reactions in order to ensure that the treatment provide is in most cases personalised. Things like emotional predispositions, biomechanics as well as biochemistry of the patients are utilised for treating illness."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/me9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

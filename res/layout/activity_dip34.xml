@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/texture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dip34">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_textile_processing"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma Textile Processing (DTP) - Textile Processing is a major industry. It is based in the conversion of three types of fibre into yarn, then fabric, then textiles. These are then fabricated into clothes or other artifacts. Cotton remains the most important natural fibre, so is treated in depth. There are many variable processes available at the spinning and fabric-forming stages coupled with the complexities of the finishing and colouration processes to the production of a wide ranges of products. Textile wet processing is one of the vital areas of textile technology. Few decades ago, it was popular only in northern India. After the development of Tirupur in knit processing and Erode and Karur in woven fabric processing, a diploma course in textile processing gained importance in this region based on the need for processing technicians."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

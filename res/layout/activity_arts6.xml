@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts6">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Bachelor of Event Management"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          Event Management as a career field requires aspirants to conceptualise, plan and organise an event which can be a political rally, an award show, exhibition, fashion show etc. As part of organising an event, one needs to identify the target audience, decide the theme for the event, plan logistics and send invites for the event being organised.
+
+Event Management is an extreme creativity field and candidates need to possess excellent communication skills as well as be willing to work odd and long hours in order to be successful in this field. Event management as a career requires people management apart from handling props and taking care of logistics.
+
+Event Management is considered to be a part of mass communication courses that are offered by most popular colleges in India at the undergraduate (UG). Thereafter, at the master’s level aspirants can pursue elaborate programmes in event management specialisation.
+
+Thus, aspirants can pursue an event management course at the undergraduate (UG) level, postgraduate (PG) level as well as a diploma or certificate course. At the UG level, popular courses offered in the field of event management are of three years duration whereas PG courses in event management are of two years duration."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

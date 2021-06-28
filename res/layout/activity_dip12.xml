@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip12">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_civil_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Civil Engineering is a 3-year long course in engineering, specializing in the design, construction, and maintenance of physical and naturally-built environment, such as roads, bridges, canals, dams and buildings. The minimum eligibility criterion required for the candidates is to pass 10th with minimum 50% marks. Major sub-disciplines of the course include drafting (both manual and computer-aided), planning, surveying, construction technology, estimation and costing, basics of highway, bridge, railway, airport, tunnel and harbor engineering."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

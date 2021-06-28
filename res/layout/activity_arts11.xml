@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".arts11">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Diploma in Elementary Education"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Elementary Education (D.El.Ed) programme is a specifically designed package for in service untrained teachers working in primary/ upper primary schools of different states of the country. The programme has been developed by the Academic Department, NIOS on the initiative of Ministry of Human Resource Development (MHRD), Govt. of India, keeping in view the NCF 2005, RTE 2009 and NCFTE 2010. The Programme aims at enabling the target group to develop in them skills, competencies, attitudes and understanding to make teaching and learning more effective.
+The National Institute of Open Schooling (NIOS) is an autonomous organization under the Government of India, Ministry of Human Resource Development(MHRD). It is the largest open schooling system in the world with around 2.02 million learners currently on roll at the secondary and senior secondary level. NIOS has national and international network with more than 15 Regional Centres, 2 Sub-Centres and about 5,000 study centres for its Academic and Vocational Programme within and outside the country.
+
+
+NIOS has been vested with the authority to train the untrained teachers at Elementary Level. The training package for D.El.Ed. Programme has been developed by the NIOS in collaboration with other agencies working in field. The Institute offers a very innovative and challenging Two-year Diploma in Elementary Education Programme for in-service untrained teachers in different states according to RTE 2009."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

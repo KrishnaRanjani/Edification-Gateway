@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xamhome">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:id="@+id/examquote"
+                android:layout_height="match_parent"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:text="select your exam qualification"
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/exam10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:text=" Exams after 10 std" />
+
+
+
+        <Button
+            android:id="@+id/exam12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:text=" Exams after 12 std" />
+
+
+        <Button
+            android:id="@+id/examdeg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:text=" Exams after degree" />
+
+    </TableLayout>
+
+</ScrollView>

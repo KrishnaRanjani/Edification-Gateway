@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip25">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_interior_design_and_decoration"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Interior Design is a 1-year basic level certificate course in the domain of interior designing. The course is offered to aspirants who have completed their 10+2 or equivalent level education from a recognized board/institute. Those who have done a diploma after class 10th as a part of 10 +3 pattern of education can also apply for admission to the course. Diploma in Interior Design course is an initial level certification in the domain of interior designing. Hence the focus is on imparting holistic knowledge in regards to the fundamental concept and principles of the subject. A student can opt for enhancement in skill and knowledge set by going for an advanced level diploma in the long run. The course is structured to dissipate practical level skills in the subject to the students along with the theoretical understanding of the same."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

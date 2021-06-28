@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng17">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000080"
+                android:text="@string/biochemical_engineering"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/kvk"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/biochemical"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Biochemical Engineering is a branch of engineering that deals with the study, design and construction of unit processes that involve biological organisms or molecules. It is an inter-disciplinary study of chemical engineering, biochemistry and microbiology.
+ The objective of this branch is to train students in biotechnology, biochemical engineering, microbial and enzyme systems. This will help them in understanding the biological or biochemical phenomena of these systems.
+Apart from it, Biochemical Engineering also deals with the kinetics of growth, death and metabolism, agitation, fermentation, mass transfer and enzyme technology.
+
+"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

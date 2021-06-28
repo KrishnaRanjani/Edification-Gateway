@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng42">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/electronics_engineering_design_and_manufacturing"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       A B. Tech in Electronics Engineering in Design and Manufacturing empowers students with the knowledge to design and test circuits that use resistors, capacitors, inductors, diodes and transistors to achieve a particular functionality. Graduates from this stream are well-equipped with the trade of designing integrated circuits by constructing circuit schematics and layouts using Electronic Design Automation (EDA). The curriculum is designed in a way so as to give equal weight to the need to design, testing and realization of analog and digital circuits and systems, power electronics and industrial drives and control and instrumentation systems. Nowadays, computers and controllers are based on microprocessors, micro-controllers, memory and embedded systems which contain millions of transistors in a single semiconductor chip. This has escalated the need to get skilled manpower that can understand the need of the time and help an organisation stay up-to-date with the technological advances"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip4">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_cookery"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="         	The basic eligibility for pursuing Diploma Professional Cookery is a pass degree in 10+2 or Higher Secondary Examination with a minimum of 60% aggregate marks from a recognized college or university.	Some institutes conduct entrance examination for providing admission in this Diploma course.Candidates have to appear in a 2 hours entrance test comprising of subjects such as Reasoning, English, General Knowledge and General Science.This is followed by a group discussion and rigorous personal interview to assess candidate’s aptitude test and their overall knowledge on the subject is judged.The academic session usually start from July / August every year and the exams are held in the month of April / May.The number of seats varies from college to college. So, candidates should start doing their research and start preparing for the course as early as possible.The duration of Diploma Professional Cookery course is of 1 year."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

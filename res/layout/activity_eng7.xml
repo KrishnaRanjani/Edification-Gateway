@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng7">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/aircraft_maintence_engineering"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/kvk"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/aircarft_maintance"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Aeronautical Engineering is a well-known branch of engineering that attracts students with interest in airplanes and their mechanism. The primary job of an Aeronautical Engineer is to devise aircraft and propulsion systems, but with time, the engineer is given many more responsibilities to carry out. Recruitment opportunities are available in defense services and aviation industry
+Engineering in aeronauticsis taxing because of its vast syllabus which necessitates a lot of thoroughness and hard work. However, completion of course is rewarding for any student as it leads to a job with good remunerations. An engineering degree in Aeronautical Engineering helps one in getting job in aviation industry, defense establishments, and civil aviation department. The average salary of an aeronautical engineer is INR 6 lakhs or more. With experience, the earning grows manifold.
+"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

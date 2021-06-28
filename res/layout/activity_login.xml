@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second"
+    tools:context=".Login">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+        <TableRow>
+            <EditText
+                android:id="@+id/textview4"
+                android:layout_width="match_parent"
+                android:inputType="textEmailAddress"
+                android:hint="E-Mail"
+                android:layout_marginRight="95dp"
+                android:textColorHint="@color/colorwhite"
+                android:textStyle="bold"
+                android:layout_marginLeft="26dp"
+                android:layout_height="match_parent">
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/textview3"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="95dp"
+                android:textColorHint="@color/colorwhite"
+                android:textStyle="bold"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent">
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/button"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="137dp"
+                android:layout_width="match_parent"
+                android:background="#ca226b"
+                android:layout_height="match_parent"
+                android:layout_marginTop="45dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorwhite"
+                android:text="sign in"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="87dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="45dp"
+                android:text="To Create a account.Click here"
+                android:textStyle="bold"
+                android:textColor="#ca226b"
+                android:textSize="25dp"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

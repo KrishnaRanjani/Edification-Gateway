@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".contact">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+
+                <TextView
+                    android:id="@+id/text123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="15dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#0041c2"
+                    android:text="Talk to career counsellor
+                     through phone :"/>
+            </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/pgegfra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#E42217"
+                android:text="Choose your Career counsellor.."/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/pgejgdgra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#347235"
+                android:text="M.SHAKTHI ARORA"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#571b7e"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="10dp"
+                android:text=" SHAKTHI ARORA is an expert and well-known counsellor in New Delhi and works persistently to help students realize their dreams. She holds a PhD and MA in Psychology along with being a Green Belt Certified Global Career Counsellor from the University of California, Los Angeles Extension ( UCLA Extension) and Univariety."
+                android:id="@+id/fyjc7"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/fdtyfyf"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="30dp"
+                android:layout_height="140dp"
+                android:src="@drawable/contact1"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/fdoi12iyftyyf"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="390dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_call_black_24dp"/>
+        </TableRow>
+        <TableRow>
+        <Button
+            android:id="@+id/contact1"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="217dp"
+            android:layout_marginTop="45dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:background="#ffffff"
+            android:textColor="#c11b17"
+            android:textSize="20sp"
+            android:text="contact number"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="217dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/pgejggra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#347235"
+                android:text=" K.Anuradha Kishore"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#571b7e"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="10dp"
+                android:text="Anuradha Kishore s a result-driven individual who has over 20 years of industrial experience spanning across financial and pharmaceutical domains. Over the years, she has conducted several training programs with much success.  "
+                android:id="@+id/fyfjc7"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/fdtykiyfyf"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="30dp"
+                android:layout_height="140dp"
+                android:src="@drawable/contact2"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/fdoi12iylftyyf"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="390dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_call_black_24dp"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/contact2"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="#ffffff"
+                android:textColor="#c11b17"
+                android:textSize="20sp"
+                android:text="contact number"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

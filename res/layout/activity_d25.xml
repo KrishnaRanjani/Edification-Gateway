@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".d25">
+
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#000080"
+                android:background="#f0ffff"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="350dp"
+                android:layout_marginTop="10dp"
+                android:text="G.I.C Officers’ Exam:"
+                android:textSize="30dp"
+                android:id="@+id/GIC"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="35dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:text="General Insurance Corporation of India Assistant Manager Exam"
+                android:textSize="25dp"
+                android:id="@+id/GIC1"
+                android:textStyle="bold"/>
+        </TableRow>
+
+
+        -<TableRow>
+
+        <TextView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="230dp"
+            android:layout_marginTop="20dp"
+            android:text="Medium of examination:"
+            android:textSize="20dp"
+            android:id="@+id/GIC2"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#2B65EC"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginTop="10dp"
+                android:text="ENGLISH"
+                android:textSize="20dp"
+                android:id="@+id/GIC3"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Month of examination:"
+                android:textSize="20dp"
+                android:id="@+id/GIC4"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#2B65EC"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginTop="10dp"
+                android:text="October"
+                android:textSize="20dp"
+                android:id="@+id/GIC5"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#6f4e37"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="DESCRIPTION:"
+                android:textSize="20dp"
+                android:id="@+id/GIC6"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="279dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="10dp"
+                android:text="       GIC holds an exam for the Assistant Manager post. GIC Assistant Manager is one of the most sought after Insurance exams in Indian Insurance sector. GIC conducts this recruitment exam from time to time the vacancies for ‘Assistant Managers (i.e. Generalist and Specialist) Scale I’ posts.After qualifying the GIC Assistant Manager Exam, you become eligible to get a job in GIC and can be hired as an Assistant Manager in the prestigious General Insurance Corporation."
+                android:id="@+id/GIC7"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#FF0000"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="20dp"
+                android:text="Click here to get more information."
+                android:textSize="20dp"
+                android:id="@+id/GIC8"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</ScrollView>

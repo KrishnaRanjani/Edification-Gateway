@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip21">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_food_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Food technology is the branch of science that deals with all technique and activities involved in preserving, processing and manufacturing the food products.A food technologist works on new methods of development for manufacturing and preserving of food and keeping it in safe and hygienic conditions, flavor and resistance from the natural harms like microorganism and toxins.The food processing organizations are involved in the processing, preservation, packaging, labeling development, quality management and research and development of the dairy products, food grains, confectionery products, fish products, meat and poultry products and fruit and vegetable products.Science like chemistry, biology, engineering, nutrition and microbiology is used by the food technology to make the food safer and make them available throughout the year."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

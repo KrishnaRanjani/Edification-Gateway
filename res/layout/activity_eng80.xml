@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng80">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/marine_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Marine Engineering offers an exciting career for adventurous students. It involves the construction and maintenance of ships, other sailing vessels, ports and cargo facilities at waterfront. Also known as Ocean Engineering, it broadly refers to the engineering of boats, ships, oil rigs and any other marine vessel or structure. Marine engineers are   responsible for maintaining a ship’s machinery such as the engine room, electric motors and propulsive engines and other devices to ensure proper functioning. Marine engineers apply the engineering sciences like mechanical engineering and electrical engineering to the development, design, operation and maintenance of watercraft propulsion and on-board systems; e.g. power and propulsion plants, machinery, piping, automation and control systems etc. for marine vehicles of any kind like surface ships, submarines."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

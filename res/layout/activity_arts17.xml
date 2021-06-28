@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts17">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Media Ethics"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          Media ethics is the subdivision of applied ethics dealing with the specific ethical principles and standards of media, including broadcast media, film, theatre, the arts, print media and the internet. The field covers many varied and highly controversial topics, ranging from war journalism to Benetton ad campaigns.
+
+Media ethics involves promoting and defending values such as a universal respect for life and the rule of law and legality.[1] Media Ethics defines and deals with ethical questions about how media should use texts and pictures provided by the citizens.
+
+Literature regarding the ways in which specifically the Internet impacts media ethics in journalism online is scarce, thereby complicating the idea for a universal code of media ethics"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".medi">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/ex12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="55dp"
+                android:textColor="#7d0552"
+                android:textStyle="bold"
+                android:text="@string/medical_institutes"
+                android:textSize="25sp"
+                android:layout_marginStart="13dp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/kjuy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="25dp"
+                android:textColor="#e4287c"
+                android:textStyle="bold"
+                android:text="@string/top_10_medical_clg"
+                android:textSize="25sp"
+                android:layout_marginStart="13dp" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/med1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/aiims_new_delhi"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/med2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/pgimer_chandigarh"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/med3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/christian_medical_college_vellore"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/med4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/kasturba_medical_college_manipal"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/med5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/king_george_s_medical_university_lucknow"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/med6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/jipmer_puducherry"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/med7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/bhu_varanasi"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/med8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/institute_of_liver_and_biliary_sciences_new_delhi"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/med9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/jawaharlal_nehru_medical_college_aligarh"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp">
+
+            </TextView>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/med10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/sri_ramachandra_medical_college_and_research_institute_chennai"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp">
+            </TextView>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/refer1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#9f000f"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/click_here_to_know_more_about_medical"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp">
+            </TextView>
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

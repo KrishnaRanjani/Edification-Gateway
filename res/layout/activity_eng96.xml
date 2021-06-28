@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng96">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/plastic_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="        Plastics engineering encompasses the processing, design, development, and manufacture of plastics products. A plastic is a polymeric material that is in a semi-liquid state, having the property of plasticity and exhibiting flow. Plastics engineering encompasses plastics material and plastic machinery. Plastic Machinery is the general term for all types of machinery and devices used in the plastics processing industry.[1] The nature of plastic materials poses unique challenges to an engineer. Mechanical properties of plastics are often difficult to quantify, and the plastics engineer has to design a product that meets certain specifications while keeping costs to a minimum. Other properties that the plastics engineer has to address include: outdoor weatherability, thermal properties such as upper use temperature, electrical properties, barrier properties, and resistance to chemical attack."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link96"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

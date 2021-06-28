@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backone"
+    tools:context=".medical_list">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/scighwjf"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/medical_courses_in_india"
+                android:textAlignment="center"
+                android:textColor="@color/earthblue"
+                android:textColorHighlight="#ecc5c0"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginStart="23dp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/logo" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi001"
+                android:layout_height="match_parent"
+                android:layout_width="240dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="@string/bachelor_of_medicine"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi002"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="@string/bachelor_of_surgery"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi003"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Dental Surgery"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi004"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text=" Bachelor of Ayurvedic Medicine and Surgery"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi005"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Homeopathic Medicine and Surgery "
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi006"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text=" Bachelor of Unani Medicine and Surgery "
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi007"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text=" Bachelor of Physiotherapy"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi008"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Veterinary Science "
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi009"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text=" Bachelor of Naturopathy and Yoga"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi010"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Siddha Medicine and Surgery"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi011"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Occupational Therapy"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi012"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Science in Biotechnology"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi013"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Technology (B.Tech) in Biomedical Engineering"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi014"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Science in Microbiology (Non-Clinical)"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi015"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Science in Cardiac or Cardiovascular Technology"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi016"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Respiratory Therapy"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi017"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor in Psychology"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi018"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Science in Microbiology (Non-Clinical)"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi019"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="General Surgery"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/medi020"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Obstetrics and Gynaecology"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/refermed"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/plumvelvet"
+                android:textColor="@color/colorwhite"
+                android:textSize="20sp"
+                android:text="for more detailed information click here"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="110dp" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</ScrollView>

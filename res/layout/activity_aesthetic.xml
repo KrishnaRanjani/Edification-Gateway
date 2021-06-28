@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".aesthetic">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <Button
+                android:id="@+id/SOC"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="295dp"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#E3E4FA"
+                android:textColor="#0020C2"
+                android:textSize="20sp"
+                android:text="SELECT YOUR INTERESTED
+                aesthetic COURSE"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/logo" />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/aes1"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="35dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Architect"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/aes2"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Builder"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes3"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="cinematographer"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes4"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="accessory designer"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes5"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Actor"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes6"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="animation"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes7"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="beautician"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes8"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="cartoonist"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes9"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="choreographer"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes10"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="commercial artist"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+        <Button
+            android:id="@+id/aes11"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="217dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:textColor="#571b7e"
+            android:textSize="20sp"
+            android:text="copywriter"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="217dp" />
+
+    </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes12"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="editor"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes13"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="fashion designer"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes14"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="fashion jouranlist"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes15"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="fashion merchandiser"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes16"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="film/tv director"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes17"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="film/ tv producer"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes18"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="gem and fwellery maker"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes19"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="industrial designer"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+        <Button
+            android:id="@+id/aes20"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="217dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:textColor="#571b7e"
+            android:textSize="20sp"
+            android:text="interior designer"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="217dp" />
+
+    </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes21"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="landscape architect"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes22"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="performing artist"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+        <Button
+            android:id="@+id/aes23"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="217dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:textColor="#571b7e"
+            android:textSize="20sp"
+            android:text="photographer"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="217dp" />
+
+    </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes24"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="textile designer"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/aes25"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="visual communication "
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

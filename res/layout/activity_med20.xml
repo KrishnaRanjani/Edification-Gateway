@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".med20">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="Obstetrics and Gynaecology"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginRight="110dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/gy"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"
+                android:layout_marginRight="190dp"
+                android:text="          Obstetrics and gynaecology (British English) or obstetrics and gynecology (American English) is the medical specialty that encompasses the two subspecialties of obstetrics (covering pregnancy, childbirth, and the postpartum period) and gynaecology (covering the health of the female reproductive system – vagina, uterus, ovaries, and breasts). It's commonly abbreviated as OB-GYN or OB/GYN in US English, and as obs and gynae or O and G in British English.
+Postgraduate training programs for both fields are usually combined, preparing the practicing obstetrician-gynecologist to be adept both at the care of female reproductive organs' health and at the management of pregnancy, although many doctors go on to develop subspecialty interests in one field or the other."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/me20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

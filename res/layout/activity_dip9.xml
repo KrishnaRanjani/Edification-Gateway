@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip9">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_architectural_assistantship"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          This course shapes the career for people who are intrigued about being an architect. The ability to draw and design architectures meticulously is an inherent requirement of this course. For people who possess the ability of drawing the blueprint of an advance technology building or even an entire university this diploma course is very advantageous. Once you pass this course, you can join government irrigation offices or government corporation offices or public works department.To be eligible to apply in a diploma course in Architectural Assistantship , you must have either of the two basic qualifications, namely-a) higher secondary degree with science stream or, b) degree in 10th standard. For students with 10th standard qualification, the restriction on streams do not apply.The minimum cut-off marks to apply in this course is 55% in 10th standard or 12th standard."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

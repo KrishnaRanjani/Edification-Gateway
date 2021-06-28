@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".med12">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="22dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="Bachelor of Science in Biotechnology"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginRight="110dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bio"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"
+                android:layout_marginRight="190dp"
+                android:text="          The B.S. Degree in Biotechnology is designed to give you fundamental training in basic scientific principles as well as in specific concepts, techniques, and applications used in biotechnology. The Biotechnology B.S. is rigorous degree, providing excellent preparation for medical school, dental school, and graduate school, as well as for jobs in the life sciences.
+B.S. in Biotechnology graduates go on to work in biotechnology and related industries, including the pharmaceutical and agricultural industries. They may also enroll in graduate programs (M.S. or Ph.D.) in biotechnology or related fields such as molecular biology, microbiology, genetics, and biochemistry. Some Biotechnology B.S. graduates pursue advanced professional degrees such as M.D. (Medicine), M.B.A. (Business), or J.D. (Law) with an emphasis on biotechnology issues."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/me12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".eng91">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/paint_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Paint Technology is the discipline in which one studies about the various ingredients – resin, polymers, pigments etc. that are used in making a paint. Paint technology involves understanding the chemistry of the functions of each ingredient going into the paint and the effect on the final property of the paint. In Paint Technology, we study about the different kinds of paints, their manufacturing, the use of various kinds of paints and the techniques used for the application of paints. Those who have graduated in this subject field are known as paint technologists. They are responsible for developing new products as well as enhancing and upgrading the qualities of products which have already been developed. Paint Technologist identifies and evaluates the suitability of various paints for various applications. Paint Technologist explain to the customers about the right usage of paints and identify new markets for the products. Their work also involves developing new colours and textures of paints, new techniques for the application of paints."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng18">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#000080"
+                android:textSize="25dp"
+                android:text="@string/biological_sciences_and_bioengineering"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/kvk"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/bioeng"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Biological Sciences and Bioengineering program (BIO) aims to educate students about developing new bioinformatics tools. They also learn about Biomaterials, Biomechanics and Cell and Tissue Engineering, Biomedical Devices, Computational Bioengineering, Biomedical Imaging, Premed and Synthetic Biology. Students acquire knowledge about applying engineering principles to the re-conceptualisation of biological phenomena. Training is imparted to them to develop new materials and processes, which would include genetic modification of agriculturally important plants and human cells. The students would be given intensive knowledge about molecular biology."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

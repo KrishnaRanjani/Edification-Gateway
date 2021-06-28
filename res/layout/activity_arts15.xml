@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".arts15">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Bachelor of Business Studies"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          BBS course is an undergraduate Business Management course. The full form of BBS is Bachelor of Business Studies.
+
+BBS Course is designed to provide a basic understanding of Management education and to train the students in communication skills effectively which inculcate entrepreneurship skills.
+
+BBS syllabus is very similar to BBA’s, But its focus is majorly in practical exposure rather than a theoretical study.
+
+Aspirants can specialize in management, accounting, marketing and information systems.
+
+The BBS job scope is vast and it takes the industrial experience to its core and, certain institutions, it a part of the curriculum.
+
+In this degree, various business courses are integrated with a realistic and industry-based focus in order to build sound business ideas within the aspirants.
+
+Many colleges incorporate training and practical experience, in the form of case projects, presentations, internships, industrial visits, and interaction with experts from the industry as a part of the BBS course syllabus.
+
+Some Colleges that offer this course are University of Delhi, Jamia Millia Islamia and Daly College of Business School."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

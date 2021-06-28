@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng48">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/electronics_and_instrumentation_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="      Electronics and Instrumentation Engineering has come to acquire a great deal of significance as today, in our day to day lives we are increasingly using tools, appliances, and instruments which contain electronic components. Those candidates who are planning to pursue this program are provided training in the field of electronic controls and communications engineering, electrical machines, semiconductor devices. They also learn about digital control, virtual instrumentation, neural network and fuzzy logic, data communication and networks, digital signal processing, IC fabrication technology. Students are trained to study robotics, computer control in process application, biomedical, computer-assisted measurements and the latest techniques related to instrumentation."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

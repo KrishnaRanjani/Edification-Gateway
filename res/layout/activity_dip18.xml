@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip18">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_electronics"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Electronics Engineering is a 3-year full-time diploma level engineering course. Candidates who have completed 10th examination with Mathematics and Science stream or an equivalent examination from a recognized board with 55% marks are eligible for Diploma in Electronics Engineering course. Diploma in Electronics Engineering focuses on designing and testing ICs, inductors, capacitors, and resistors. In this course, students will learn to design electronic circuits, computer systems, electric wires, and also develop control systems. These candidates are considered to deal with the problems that occur with systems such as electrical machines and electric power transmission and find solutions for an issue occurred in the electrical and electronic machines."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

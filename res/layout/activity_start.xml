@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".start">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/karuvaiche"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="95dp"
+                android:textColor="#7d0552"
+                android:textStyle="bold"
+                android:text="@string/edification_gateway"
+                android:textSize="30sp"
+                android:layout_marginStart="13dp" />
+        </TableRow>
+
+
+        <TableRow android:layout_width="341dp">
+
+            <TextView
+                android:id="@+id/quote"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/choose_your_stream_of_search"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/clg"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="@string/Top_institutions"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/area"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="217dp"
+                android:background="@color/colorwhite"
+                android:text="@string/area_of_interest"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#571b7e"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+        </TableRow>
+        <TableRow >
+            <Button
+                android:id="@+id/qualification"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="@color/colorwhite"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="@string/qualification"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/exam"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="@string/competative_exams"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/contactb"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:background="@color/colorwhite"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Contact Guide"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

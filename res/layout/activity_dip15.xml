@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip15">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_electrical_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Electrical Engineering is a certificate/beginner level course in the domain of Electrical engineering and its related aspects. One can pursue the course after completion of his/her class 10th education. The course is of three years duration with a semester-wise system of examination. Diploma in Electrical Engineering course is a starting level certification in the domain. Students are equipped with basic knowledge and skill in relation to Electrical Engineering. Students can enhance their skill and knowledge set in the respective domain by going for B.E/B.Tech and M.E/M.Tech course in the long run. The course mainly aims at providing practical level skills in the subject to the students along with the theoretical understanding of the same so, as to equip them with an all-around holistic view of the subject. "/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

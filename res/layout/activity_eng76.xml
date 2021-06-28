@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng76">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/leather_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Leather technology deals with synthesis, production and refining of leather to make commercial goods like footwear, clothing, gloves, belts, wallets, luggage, bags, upholstery including automobiles and sports goods. It is a niche branch of engineering which deals with leather and its by products. As defined by Wikipedia, leather is a durable and flexible material created by the tanning of animal rawhide and skin. The process of manufacturing ranges from cottage industries to heavy industries. The leather technology, which is taught mostly in the engineering institutes, gives the students an idea on the three stages of synthesizing raw leather into finished products. These three stages include preparatory stages, tanning and crusting. The preparatory stage is where the raw leather is prepared for further processing. Tanning process matches the protein of the raw hide or skin into a stable material which will avoid the leather to decay and be suitable for a wide variety of end applications. Crusting is the process of thinning, re-tanning and lubricating of the leather material."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

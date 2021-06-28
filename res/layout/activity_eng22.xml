@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng22">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000080"
+                android:text="@string/building_and_construction_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Building and Construction Engineering deals with designing, planning, construction and management of infrastructure. It would include buildings, roads, bridges, dams, roads, railways etc. The course combines some aspects of Civil Engineering as well as that of Construction Management. The 4-year program earns you a B.Tech or B.E in Building and Construction Engineering. The major difference between Civil Engineering and Construction Engineering is that the former concentrates more on the design work, gearing students towards a career as a design professional. This essentially requires them to take a multitude of construction design courses. It also allows them to understand both the design functions as well as the building requirements needed to design and build structures. One can pursue M.Tech in Building and Construction Engineering after successful completion of undergraduate studies"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

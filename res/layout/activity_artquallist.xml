@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artquallist">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/artsdfg"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="60dp"
+                android:text="ARTS COURSES"
+                android:textAlignment="center"
+                android:textColor="@color/earthblue"
+                android:textColorHighlight="#ecc5c0"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginStart="23dp" />
+        </TableRow>
+            <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/logo" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/art001"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Arts"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art002"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Business Administration"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art003"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Management Science"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art004"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Fine arts"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art005"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Hotel Management"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art006"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text=" Bachelor of Event Management."
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art007"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text=" Bachelor of Journalism and Mass Communications"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art008"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Fashion Designing"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art009"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Elementary Education. "
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art010"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Physical Education. "
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art011"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Diploma in Elementary Education. "
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art012"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Social Work. "
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art013"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Retail Management."
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art014"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Aviation courses "
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art015"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text=" Bachelor of Business Studies"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art016"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Travel and Tourism Management."
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art017"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Media Ethics"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art018"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="ARGO SERVICES"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art019"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Mass Communication"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art020"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Languages and Translation"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art021"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Print Media"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art022"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="BA in Animation"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art023"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="BBA LLB"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art024"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="AIR HOSTESS"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/art029"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="DEFENCE"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng16">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000080"
+                android:text="@string/bio_medical_and_instrumentation_engineering"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/kvk"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="190dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/biomedical"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Bachelor of Technology (B.Tech) in Biomedical Instrumentation is a four year long undergraduate engineering course which covers the designing, repair, maintenance and operation of medical electronic equipment. Also, known as Biomedical and Instrumentation Engineering or Biomedical Engineering, this technical course focuses on how medical electrical equipment can measure physiological data for patients, thereby improving medical care. Being a hands-on program, the course involves training and internships to get a hang of the process related to Biomedical Instrumentation. Students opting for the course are exposed to different areas including biomechanics, electrical safety, computing, engineering and cell biology, data processing, engineering software, and human physiology.
+Biomedical Instrumentation is a branch of engineering dealing with the application of the engineering concepts and principles to solve clinical problems in medical care and surgery. With this innovative discipline, the bridge between engineering and medicine can be narrowed down, thus, contributing in the healthcare treatment such as monitoring, diagnosis, therapy and others.
+"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

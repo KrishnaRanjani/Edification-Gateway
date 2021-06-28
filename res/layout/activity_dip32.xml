@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".dip32">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_production_and_industrial_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Production engineering deals with integrated design and efficient planning of the entire manufacturing system. Production engineers possess a wide set of skills, competence and attitudes based on market and scientific knowledge. Students with all these qualities should opt for the course as for enhancing their abilities.
+Industrial engineers use specialized knowledge and skills in the mathematical, physical and social sciences, together with the principles and methods of engineering analysis and design, to specify, predict, and evaluate the results obtained from systems and processes.From these results, they are able to create new systems, processes or situations for the useful coordination of labour, materials and machines and also improve the quality and productivity of systems, physical or social.
+"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".arts10">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Bachelor of Physical Education"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          Are you a sports lover or a physical fitness freak thinking of building a career in same? If yes, you have landed at the right place. Physical Education is a field that helps you stick around the fitness of your body by promoting the importance of exercise and nutrition.
+
+BPEd (Bachelor of Physical Education) is an undergraduate degree course which deals with the techniques that are useful to maintain the fitness of human body. The course is typically of three to four years duration. However, some universities also offer one or two-year duration BPEd course. BPEd can be pursued as a full-time or part-time course.
+
+Candidates having a deep passion for sports and related activities are the right pick for Bachelor of Physical Education course. A degree in BPEd can lead candidates to a variety of career options starting from being a part of the chosen sport to being a physical fitness trainer.
+
+Know what all a BPEd course entails in terms of the job opportunities, admission criteria, course curriculum, and more below. "/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

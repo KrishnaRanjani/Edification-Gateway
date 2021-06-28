@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".dip37">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/cosmetics_and_lifestyle_product_designing"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          The art of applying design, creativity and natural beauty to outfits and lifestyle accessories is termed as Fashion Design. Influenced by varied social and cultural attitudes, fashion design continually progresses over time and from place to place. Putting into use the knowledge in this domain, different kinds of clothes and adornments are designed. Modern fashion design can be classified into different categories including ready to wear (for masses, standard sized) and haute couture (for specific customers, custom sized)."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng88">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/naval_architecture_and_oceanengineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Naval Architecture and Ocean Engineering focuses on ships and offshore structures. It deals with the the development of equipment and techniques for the exploration of the ocean floor and exploitation of its resources.  Naval architecture and ocean engineering is involves intense research of the ocean and its impact on the environment. It is actually a combination of several types of engineering: a mix of mechanical, electrical, civil, and chemical engineering techniques and skills, coupled with a basic understanding of how the oceans work. Graduates from this field must have excellent organizational and interpersonal skills and capable of multitasking, and exhibit effective written and oral communication skills. The individual must be able to work independently and within a team environment. Should be a self-starter and able to take initiative as needed."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

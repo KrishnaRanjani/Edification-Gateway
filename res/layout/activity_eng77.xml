@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng77">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/man_made_fiber_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Manmade fiber technology is a branch of textile engineering, where textiles and fibers are developed from artificial sources. The demand for manmade fibers is on the rise and they are required in the ever growing fashion and apparel industries. The growing land for natural fibers is not increasing in the equivalent ratio to its demand, which is climbing day by day due to healthy growth in per capita income worldwide and change in lifestyle. To complement with the natural fiber materials, the manmade fibers have also made way to our lifestyles. Polyester, nylon, polypropylene, Kevlar, Corterra, Bamboo, viscose and high density polyethylene fiber include some of the man made fabric materials. After completing the course, the students mainly start their career in the textile industry, fashion and apparel industry."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

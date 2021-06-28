@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts19">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Mass Communication"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          Mass communication is the process of exchanging information through mass media to large segments of the population. In other words, mass communication refers to imparting and exchanging information on a large scale to a wide range of people. It is usually understood for relating to various forms of media, as these technologies are used for the dissemination of information, of which journalism and advertising are part of. Mass communication differs from other forms of communication, such as interpersonal communication or organizational communication, because it focuses on particular resources transmitting information to numerous receivers. The study of mass communication is chiefly concerned with how the content of mass communication persuades or otherwise affects the behavior, the attitude, opinion, or emotion of the people receiving the information.
+
+Normally, transmission of messages to many persons at a time is called mass communication. But in a complete sense, mass communication can be defined as the process through which some information is circulated extensively among people nearby and also throughout far extending areas such as entire countries or the globe.
+
+Through mass communication, information can be transmitted quickly to many people who generally stay far away from the sources of information. Mass communication is being done through many mediums, such as radio, television, social networking, billboards, newspapers, magazines, film, and the Internet"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

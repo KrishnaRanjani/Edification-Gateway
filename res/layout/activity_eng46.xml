@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng46">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/electronics_and_computer_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Electronics and Computer Engineering is a branch of Electronics Engineering which deals with the effects of electrons to build components, devices, systems, or equipment. Electrical Engineering basically deals with the study and application of electricity, electronics, and electromagnetism. A bachelor's program in Electronics and Computer Engineering gets you a B.Tech degree in Electronics and Computer Engineering. Computer engineering deals with the design of computers and computer systems. This may involve the design of new hardware or software. Computer engineers may also work on a system's software. However, the design of complex software systems is often the domain of software engineering, which is usually considered a separate discipline. Electronics and Computer engineering is the integration of electrical engineering and computer science to develop computer systems. The computer engineers are involved in hardware and software aspects of computing. Master's degree in Electronics and Computer Engineering earns you an M.Tech."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

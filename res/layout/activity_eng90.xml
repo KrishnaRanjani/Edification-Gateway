@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng90">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/oil_and_paint_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="      Oil and paint technology is a sub branch of Chemical Technology. It is a very niche branch of engineering under the Chemical Engineering discipline and hence the course is seen to be offered by few institutes in India. Oil and paint Technology is the discipline in which one studies about the various ingredients, polymers, pigments etc.-that are used in making oil and paint. Different substrate and surfaces, depending on their unique physical and chemical properties, require different kinds of paint or coating formulations to be applied on them. One studies about the different aspects of paint technology application in this discipline. The course deals with the types of oils and paints, the manufacturing and various processes by which they are utilized in the industry. Some of the main areas of Oil and Paint Technology include oil and paint media, paint application."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

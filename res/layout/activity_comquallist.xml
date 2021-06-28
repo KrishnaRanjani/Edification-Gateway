@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backone"
+    tools:context=".comquallist">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/artsdfg"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="60dp"
+                android:text="COMMERCE COURSES"
+                android:textAlignment="center"
+                android:textColor="@color/earthblue"
+                android:textColorHighlight="#ecc5c0"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginStart="23dp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/logo" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/COM001"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Commerce"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM002"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Economics:"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM003"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Business Administration"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM004"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Laws"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM005"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Diploma in Digital Marketing"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM006"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Chartered Accountant"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM007"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Company Secretary"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM008"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Cost and Management Accountant"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM009"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Certified Financial Planner"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM010"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Integrated Law course."
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM011"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Business Studies"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM012"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="B.Sc. Statistics. "
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM013"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Integrated B.Ed"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM014"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="D.Ed. (Special Education) "
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM015"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Interior Design."
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM016"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Air Hostess Training"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM017"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of International Business and Finance"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM018"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Bachelor of Physical Education."
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/COM019"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="DEFENCE"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/COM020"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/plumvelvet"
+                android:textSize="20sp"
+                android:text=" TO KNOW DETAILED INFORMATION ABOUT THE COMMERCE COURSE...CLICK HERE..."
+                />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

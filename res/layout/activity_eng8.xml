@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng8">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/agricultural_and_food_engineering"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/kvk"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/agri_and_food"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Agricultural and Food Engineering, as the name suggests, is combination of Agricultural Engineering and Food Engineering. It is a specialized multi-disciplinary field of engineering that combines science, microbiology, and engineering education for food and allied industries. This domain is inclusive of varied activities like food processing, machinery, packaging, ingredient manufacturing, instrumentation and control. Career paths in this engineering branch include increasing yield, research and development of new foods,manufacturing, packaging and distributing food products, design and installation of the production process.
+An Agricultural Engineer works towards increasing the crop yield by employing different advanced agricultural techniques whereas a Food Engineer working in food industry develops and monitors the processes to ensure required product quality. Thus, there are different kinds of careers opportunities after getting a degree in Agricultural and Food Engineering.
+"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

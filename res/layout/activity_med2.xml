@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".med2">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="@string/bachelor_of_surgery"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="MBBS – Bachelor of Medicine, Bachelor of Surgery"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          This Medicine (Bachelor of Medicine and Bachelor of Surgery) course at University of Central Lancashire (UCLan) is open to international students and a limited number of places will be available for UK students from the North West of England. Weighting will given to UK Widening Participation students. UK applications from outside the North West of England will not be considered. Two regional UK scholarships offering full tuition fees and a maintenance grant are also available.
+The university has a long history of encouraging participation in higher education by those who are academically capable, but whose participation in HE has been disadvantaged or have not been encouraged to consider this option. This is reflected in our Access Agreement."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="BDS – Bachelor of Dental Surgery"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          BDS course is focused on training students with knowledge and skills related to general dental practices to treat, prevent and diagnose oral diseases. Some colleges offer internships as a part of the course. However, it is mandatory for every student passing the final BDS examination to undergo a paid rotating internship for a year in a dental college.
+This dentistry course teaches the students various treatments such as Oral Medicine and Radiology, Dental Materials, Surgical Procedures, Pedodontics, Oral Pathology, Dental Anatomy and Oral Histology and Community Dentistry. This course is available both full time and part time as per the choice of student."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="BAMS – Bachelor of Ayurvedic Medicine and Surgery"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          The course aims at providing basic education in Ayurveda leading to the degree of B.A.M.S. It aims at preparing graduates of profound scholarship in the science of Ayurveda having basic and fundamental knowledge in different subjects of Ayurveda backed up by extensive practical training. He should become an efficient teacher, a research scholar and a competent Ayurvedic physician (Kayachikitsaka) and surgeon (Shalyachikitsaka) to be able to contribute his mite in the medical and health services of the Country."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="BUMS – Bachelor of Unani Medicine and Surgery"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          BUMS (Bachelor of Unani Medicine and Surgery) is an undergraduate degree programme in the field of Unani medicine and surgery. This degree covers the medical knowledge of the Unani system. To pursue and owe this degree is quite enough to become a doctor (Hakim) in the Unani medical field.
+Unani is the system of alternative medicines. The patients are taken care by enhancing the natural healing power of the human body. The concept of Unani is that the body rejuvenates itself because of its self healing power. We just need to help it by enhancing the natural healing power.
+“Unani is the ancient medical system which is involved in the treatment of patients to help in enhancing the body’s natural healing system by using Unani medicines”."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="BHMS – Bachelor of Homeopathy Medicine and Surgery"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          BHMS (Bachelor of Homeopathic Medicine and Surgery) is an undergraduate degree programme in medical field. This degree covers the medical knowledge of the homeopathic system. After completing this degree you are eligible to become a doctor in the homeopathic medical field. The degree holder is eligible to have the prefix as a doctor, the abbreviation is Dr.
+Homeopathy is the system of alternative medicines. The patients are taken care by enhancing the natural healing power of the human body. The concept of homeopathy is that the body rejuvenates itself because of its self-healing power. We just need to help it by enhancing the natural healing power."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/me2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sampleapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kkm"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".aes25"></activity>
+        <activity android:name=".aes24" />
+        <activity android:name=".aes23" />
+        <activity android:name=".aes22" />
+        <activity android:name=".aes21" />
+        <activity android:name=".aes20" />
+        <activity android:name=".aes19" />
+        <activity android:name=".aes18" />
+        <activity android:name=".aes17" />
+        <activity android:name=".aes16" />
+        <activity android:name=".aes15" />
+        <activity android:name=".aes14" />
+        <activity android:name=".aes13" />
+        <activity android:name=".aes12" />
+        <activity android:name=".aes11" />
+        <activity android:name=".aes10" />
+        <activity android:name=".aes9" />
+        <activity android:name=".aes8" />
+        <activity android:name=".aes7" />
+        <activity android:name=".aes6" />
+        <activity android:name=".aes5" />
+        <activity android:name=".aes4" />
+        <activity android:name=".aes3" />
+        <activity android:name=".aes2" />
+        <activity android:name=".aes1" />
+        <activity android:name=".aesthetic" />
+        <activity android:name=".soca20" />
+        <activity android:name=".soca18" />
+        <activity android:name=".soca19" />
+        <activity android:name=".soca16" />
+        <activity android:name=".soca17" />
+        <activity android:name=".soca15" />
+        <activity android:name=".soca14" />
+        <activity android:name=".Soca13" />
+        <activity android:name=".soca11" />
+        <activity android:name=".soca10" />
+        <activity android:name=".soca9" />
+        <activity android:name=".soca8" />
+        <activity android:name=".soca7" />
+        <activity android:name=".soca6" />
+        <activity android:name=".soca5" />
+        <activity android:name=".soca4" />
+        <activity android:name=".soca3" />
+        <activity android:name=".soca2" />
+        <activity android:name=".soca1" />
+        <activity android:name=".social" />
+        <activity android:name=".contact" />
+        <activity android:name=".arts24">
+        </activity>
+        <activity android:name=".arts23">
+        </activity>
+        <activity android:name=".arts22">
+        </activity>
+        <activity android:name=".arts21">
+        </activity>
+        <activity android:name=".arts20">
+        </activity>
+        <activity android:name=".arts19">
+        </activity>
+        <activity android:name=".arts18">
+        </activity>
+        <activity android:name=".arts17">
+        </activity>
+        <activity android:name=".arts16">
+        </activity>
+        <activity android:name=".arts15">
+        </activity>
+        <activity android:name=".arts14">
+        </activity>
+        <activity android:name=".arts13">
+        </activity>
+        <activity android:name=".arts12">
+        </activity>
+        <activity android:name=".arts11">
+        </activity>
+        <activity android:name=".arts10">
+        </activity>
+        <activity android:name=".arts9">
+        </activity>
+        <activity android:name=".arts8">
+        </activity>
+        <activity android:name=".arts7">
+        </activity>
+        <activity android:name=".arts6">
+        </activity>
+        <activity android:name=".arts5">
+        </activity>
+        <activity android:name=".arts4">
+        </activity>
+        <activity android:name=".arts3">
+        </activity>
+        <activity android:name=".arts2">
+        </activity>
+        <activity android:name=".arts1">
+        </activity>
+        <activity android:name=".med20">
+        </activity>
+        <activity android:name=".med19">
+        </activity>
+        <activity android:name=".med18">
+        </activity>
+        <activity android:name=".med17">
+        </activity>
+        <activity android:name=".med16">
+        </activity>
+        <activity android:name=".med15">
+        </activity>
+        <activity android:name=".med14">
+        </activity>
+        <activity android:name=".med13">
+        </activity>
+        <activity android:name=".med12">
+        </activity>
+        <activity android:name=".med11">
+        </activity>
+        <activity android:name=".med10">
+        </activity>
+        <activity android:name=".med9">
+        </activity>
+        <activity android:name=".med8">
+        </activity>
+        <activity android:name=".med7">
+        </activity>
+        <activity android:name=".med6">
+        </activity>
+        <activity android:name=".med5">
+        </activity>
+        <activity android:name=".med4">
+        </activity>
+        <activity android:name=".med3">
+        </activity>
+        <activity android:name=".med2">
+        </activity>
+        <activity android:name=".med1">
+        </activity>
+        <activity android:name=".dip38">
+        </activity>
+        <activity android:name=".dip37">
+        </activity>
+        <activity android:name=".dip36">
+        </activity>
+        <activity android:name=".dip35">
+        </activity>
+        <activity android:name=".dip34">
+        </activity>
+        <activity android:name=".dip33">
+        </activity>
+        <activity android:name=".dip32">
+        </activity>
+        <activity android:name=".dip31">
+        </activity>
+        <activity android:name=".dip30">
+        </activity>
+        <activity android:name=".dip29">
+        </activity>
+        <activity android:name=".dip28">
+        </activity>
+        <activity android:name=".dip27">
+        </activity>
+        <activity android:name=".dip26">
+        </activity>
+        <activity android:name=".dip25">
+        </activity>
+        <activity android:name=".dip24">
+        </activity>
+        <activity android:name=".dip23">
+        </activity>
+        <activity android:name=".dip22">
+        </activity>
+        <activity android:name=".dip21">
+        </activity>
+        <activity android:name=".dip20">
+        </activity>
+        <activity android:name=".dip19">
+        </activity>
+        <activity android:name=".dip18">
+        </activity>
+        <activity android:name=".dip17">
+        </activity>
+        <activity android:name=".dip16">
+        </activity>
+        <activity android:name=".dip15">
+        </activity>
+        <activity android:name=".dip14">
+        </activity>
+        <activity android:name=".dip13">
+        </activity>
+        <activity android:name=".dip12">
+        </activity>
+        <activity android:name=".dip11">
+        </activity>
+        <activity android:name=".dip10">
+        </activity>
+        <activity android:name=".dip9">
+        </activity>
+        <activity android:name=".dip8">
+        </activity>
+        <activity android:name=".dip7">
+        </activity>
+        <activity android:name=".dip6">
+        </activity>
+        <activity android:name=".dip5">
+        </activity>
+        <activity android:name=".dip4">
+        </activity>
+        <activity android:name=".dip3">
+        </activity>
+        <activity android:name=".dip2">
+        </activity>
+        <activity android:name=".dip1">
+        </activity>
+        <activity android:name=".eng101">
+        </activity>
+        <activity android:name=".eng100">
+        </activity>
+        <activity android:name=".eng99">
+        </activity>
+        <activity android:name=".eng98">
+        </activity>
+        <activity android:name=".eng97">
+        </activity>
+        <activity android:name=".eng96">
+        </activity>
+        <activity android:name=".eng95">
+        </activity>
+        <activity android:name=".eng94">
+        </activity>
+        <activity android:name=".eng93">
+        </activity>
+        <activity android:name=".eng92">
+        </activity>
+        <activity android:name=".eng91">
+        </activity>
+        <activity android:name=".eng90">
+        </activity>
+        <activity android:name=".eng89">
+        </activity>
+        <activity android:name=".eng88">
+        </activity>
+        <activity android:name=".eng87">
+        </activity>
+        <activity android:name=".eng86">
+        </activity>
+        <activity android:name=".eng85">
+        </activity>
+        <activity android:name=".eng84">
+        </activity>
+        <activity android:name=".eng83">
+        </activity>
+        <activity android:name=".eng82">
+        </activity>
+        <activity android:name=".eng81">
+        </activity>
+        <activity android:name=".eng80">
+        </activity>
+        <activity android:name=".eng79">
+        </activity>
+        <activity android:name=".eng78">
+        </activity>
+        <activity android:name=".eng77">
+        </activity>
+        <activity android:name=".eng76">
+        </activity>
+        <activity android:name=".eng75">
+        </activity>
+        <activity android:name=".eng74">
+        </activity>
+        <activity android:name=".eng73">
+        </activity>
+        <activity android:name=".eng72">
+        </activity>
+        <activity android:name=".eng71">
+        </activity>
+        <activity android:name=".eng70">
+        </activity>
+        <activity android:name=".eng69">
+        </activity>
+        <activity android:name=".eng68">
+        </activity>
+        <activity android:name=".eng67">
+        </activity>
+        <activity android:name=".eng66">
+        </activity>
+        <activity android:name=".eng65">
+        </activity>
+        <activity android:name=".eng64">
+        </activity>
+        <activity android:name=".eng63">
+        </activity>
+        <activity android:name=".eng62">
+        </activity>
+        <activity android:name=".eng61">
+        </activity>
+        <activity android:name=".eng60">
+        </activity>
+        <activity android:name=".eng59">
+        </activity>
+        <activity android:name=".eng58">
+        </activity>
+        <activity android:name=".eng57">
+        </activity>
+        <activity android:name=".eng56">
+        </activity>
+        <activity android:name=".eng55">
+        </activity>
+        <activity android:name=".eng54">
+        </activity>
+        <activity android:name=".eng53">
+        </activity>
+        <activity android:name=".eng52">
+        </activity>
+        <activity android:name=".eng51">
+        </activity>
+        <activity android:name=".eng50">
+        </activity>
+        <activity android:name=".eng49">
+        </activity>
+        <activity android:name=".eng48">
+        </activity>
+        <activity android:name=".eng47">
+        </activity>
+        <activity android:name=".eng46">
+        </activity>
+        <activity android:name=".eng45">
+        </activity>
+        <activity android:name=".eng44">
+        </activity>
+        <activity android:name=".eng43">
+        </activity>
+        <activity android:name=".eng42">
+        </activity>
+        <activity android:name=".eng41">
+        </activity>
+        <activity android:name=".eng40">
+        </activity>
+        <activity android:name=".eng39">
+        </activity>
+        <activity android:name=".eng38">
+        </activity>
+        <activity android:name=".eng37">
+        </activity>
+        <activity android:name=".eng36">
+        </activity>
+        <activity android:name=".eng35">
+        </activity>
+        <activity android:name=".eng34">
+        </activity>
+        <activity android:name=".eng33">
+        </activity>
+        <activity android:name=".eng32">
+        </activity>
+        <activity android:name=".eng31">
+        </activity>
+        <activity android:name=".eng30">
+        </activity>
+        <activity android:name=".eng29">
+        </activity>
+        <activity android:name=".eng28">
+        </activity>
+        <activity android:name=".eng27">
+        </activity>
+        <activity android:name=".eng26">
+        </activity>
+        <activity android:name=".eng25">
+        </activity>
+        <activity android:name=".eng24">
+        </activity>
+        <activity android:name=".eng23">
+        </activity>
+        <activity android:name=".eng22">
+        </activity>
+        <activity android:name=".eng21">
+        </activity>
+        <activity android:name=".eng20">
+        </activity>
+        <activity android:name=".eng19">
+        </activity>
+        <activity android:name=".eng18">
+        </activity>
+        <activity android:name=".eng17">
+        </activity>
+        <activity android:name=".eng16">
+        </activity>
+        <activity android:name=".eng15">
+        </activity>
+        <activity android:name=".eng14">
+        </activity>
+        <activity android:name=".eng13">
+        </activity>
+        <activity android:name=".eng12">
+        </activity>
+        <activity android:name=".eng11">
+        </activity>
+        <activity android:name=".eng10">
+        </activity>
+        <activity android:name=".eng9">
+        </activity>
+        <activity android:name=".eng8">
+        </activity>
+        <activity android:name=".eng7">
+        </activity>
+        <activity android:name=".eng6">
+        </activity>
+        <activity android:name=".eng5">
+        </activity>
+        <activity android:name=".eng4">
+        </activity>
+        <activity android:name=".eng3">
+        </activity>
+        <activity android:name=".eng2">
+        </activity>
+        <activity android:name=".eng1">
+        </activity>
+        <activity android:name=".dipolmaa" />
+        <activity android:name=".hsc" />
+        <activity android:name=".qualiten_home" />
+        <activity android:name=".comquallist" />
+        <activity android:name=".artquallist" />
+        <activity android:name=".defense_list" />
+        <activity android:name=".medical_list" />
+        <activity android:name=".englist" />
+        <activity android:name=".sciquallist" />
+        <activity android:name=".qualtw_home" />
+        <activity android:name=".artclg" />
+        <activity android:name=".lawclg" />
+        <activity android:name=".medi" />
+        <activity android:name=".eng" />
+        <activity android:name=".clg_home" />
+        <activity android:name=".cpg81" />
+        <activity android:name=".cpg82" />
+        <activity android:name=".cpg80" />
+        <activity android:name=".cpg79" />
+        <activity android:name=".cpg78" />
+        <activity android:name=".cpg77" />
+        <activity android:name=".cpg76" />
+        <activity android:name=".cpg75" />
+        <activity android:name=".cpg74" />
+        <activity android:name=".cpg73" />
+        <activity android:name=".cpg72" />
+        <activity android:name=".cpg71" />
+        <activity android:name=".cpg70" />
+        <activity android:name=".cpg69" />
+        <activity android:name=".cpg68" />
+        <activity android:name=".cpg67" />
+        <activity android:name=".cpg66" />
+        <activity android:name=".cpg65" />
+        <activity android:name=".cpg64" />
+        <activity android:name=".cpg63" />
+        <activity android:name=".cpg62" />
+        <activity android:name=".cpg61" />
+        <activity android:name=".cpg60" />
+        <activity android:name=".cpg59" />
+        <activity android:name=".cpg58" />
+        <activity android:name=".cpg57" />
+        <activity android:name=".cpg56" />
+        <activity android:name=".cpg55" />
+        <activity android:name=".cpg54" />
+        <activity android:name=".cpg53" />
+        <activity android:name=".cpg52" />
+        <activity android:name=".cpg51" />
+        <activity android:name=".cpg50" />
+        <activity android:name=".cpg49" />
+        <activity android:name=".cpg48" />
+        <activity android:name=".cpg47" />
+        <activity android:name=".cpg46" />
+        <activity android:name=".cpg45" />
+        <activity android:name=".cpg44" />
+        <activity android:name=".cpg43" />
+        <activity android:name=".cpg42" />
+        <activity android:name=".cpg41" />
+        <activity android:name=".cpg40" />
+        <activity android:name=".cpg39" />
+        <activity android:name=".cpg38" />
+        <activity android:name=".cpg37" />
+        <activity android:name=".cpg36" />
+        <activity android:name=".cpg35" />
+        <activity android:name=".cpg34" />
+        <activity android:name=".cpg33" />
+        <activity android:name=".cpg32" />
+        <activity android:name=".cpg31" />
+        <activity android:name=".cpg30" />
+        <activity android:name=".cpg29" />
+        <activity android:name=".cpg28" />
+        <activity android:name=".cpg26" />
+        <activity android:name=".cpg27" />
+        <activity android:name=".cpg24" />
+        <activity android:name=".cpg25" />
+        <activity android:name=".cpg23" />
+        <activity android:name=".cpg22" />
+        <activity android:name=".cpg21" />
+        <activity android:name=".cpg20" />
+        <activity android:name=".CPG19" />
+        <activity android:name=".cpg18" />
+        <activity android:name=".cpg17" />
+        <activity android:name=".cpg16" />
+        <activity android:name=".cpg15" />
+        <activity android:name=".cpg14" />
+        <activity android:name=".cpg12" />
+        <activity android:name=".cpg13" />
+        <activity android:name=".cpg11" />
+        <activity android:name=".cpg10" />
+        <activity android:name=".cpg9" />
+        <activity android:name=".cpg8" />
+        <activity android:name=".cpg7" />
+        <activity android:name=".cpg6" />
+        <activity android:name=".cpg5" />
+        <activity android:name=".cpg4" />
+        <activity android:name=".cpg3" />
+        <activity android:name=".cpg2" />
+        <activity android:name=".cpg1" />
+        <activity android:name=".pg" />
+        <activity android:name=".exam_home" />
+        <activity android:name=".quali_home" />
+        <activity android:name=".areahome" />
+        <activity android:name=".start" />
+        <activity android:name=".qual" />
+        <activity android:name=".Qualification" />
+        <activity android:name=".area" />
+        <activity android:name=".Login" />
+        <activity android:name=".home" />
+        <activity android:name=".d30" />
+        <activity android:name=".d29" />
+        <activity android:name=".d28" />
+        <activity android:name=".d27" />
+        <activity android:name=".d26" />
+        <activity android:name=".d25" />
+        <activity android:name=".d24" />
+        <activity android:name=".d23" />
+        <activity android:name=".d22" />
+        <activity android:name=".d21" />
+        <activity android:name=".d20" />
+        <activity android:name=".d19" />
+        <activity android:name=".d18" />
+        <activity android:name=".d17" />
+        <activity android:name=".d16" />
+        <activity android:name=".zio" />
+        <activity android:name=".uco" />
+        <activity android:name=".Techno" />
+        <activity android:name=".SOF" />
+        <activity android:name=".skgko" />
+        <activity android:name=".silverzone" />
+        <activity android:name=".NTSE" />
+        <activity android:name=".NTSA" />
+        <activity android:name=".nso" />
+        <activity android:name=".NLSTSE" />
+        <activity android:name=".nimo" />
+        <activity android:name=".neet" />
+        <activity android:name=".nco" />
+        <activity android:name=".nbo" />
+        <activity android:name=".kvpy" />
+        <activity android:name=".d15" />
+        <activity android:name=".d14" />
+        <activity android:name=".d13" />
+        <activity android:name=".d12" />
+        <activity android:name=".d11" />
+        <activity android:name=".d10" />
+        <activity android:name=".d9" />
+        <activity android:name=".d8" />
+        <activity android:name=".d7" />
+        <activity android:name=".d6" />
+        <activity android:name=".d5" />
+        <activity android:name=".d4" />
+        <activity android:name=".d3" />
+        <activity android:name=".d2" />
+        <activity android:name=".d1" />
+        <activity android:name=".asset" />
+        <activity android:name=".cpyls" />
+        <activity android:name=".fae" />
+        <activity android:name=".fyjc" />
+        <activity android:name=".geo" />
+        <activity android:name=".iais" />
+        <activity android:name=".iar" />
+        <activity android:name=".iasr" />
+        <activity android:name=".ieo" />
+        <activity android:name=".ieso" />
+        <activity android:name=".inmr" />
+        <activity android:name=".ino" />
+        <activity android:name=".iom" />
+        <activity android:name=".ios" />
+        <activity android:name=".ko" />
+        <activity android:name=".examdeg" />
+        <activity android:name=".tw1" />
+        <activity android:name=".tw2" />
+        <activity android:name=".tw3" />
+        <activity android:name=".tw4" />
+        <activity android:name=".tw5" />
+        <activity android:name=".tw6" />
+        <activity android:name=".tw7" />
+        <activity android:name=".tw8" />
+        <activity android:name=".tw9" />
+        <activity android:name=".tw10" />
+        <activity android:name=".tw11" />
+        <activity android:name=".tw12" />
+        <activity android:name=".tw13" />
+        <activity android:name=".tw14" />
+        <activity android:name=".tw15" />
+        <activity android:name=".tw16" />
+        <activity android:name=".tw17" />
+        <activity android:name=".tw18" />
+        <activity android:name=".tw19" />
+        <activity android:name=".tw20" />
+        <activity android:name=".tw21" />
+        <activity android:name=".tw22" />
+        <activity android:name=".tw23" />
+        <activity android:name=".tw24" />
+        <activity android:name=".tw25" />
+        <activity android:name=".tw26" />
+        <activity android:name=".tw27" />
+        <activity android:name=".tw28" />
+        <activity android:name=".tw29" />
+        <activity android:name=".tw30" />
+        <activity android:name=".tw31" />
+        <activity android:name=".exam10_home" />
+        <activity android:name=".exam12_home" />
+        <activity android:name=".xamhome" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

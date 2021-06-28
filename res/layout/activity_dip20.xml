@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip20">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_fashion_design"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Fashion Design is a 1-year Diploma course, the minimum eligibility is 10+2 from any recognized college or its equivalent exam. Admission to Diploma in Fashion Design course depends on the basis of candidate’s performance in a relevant entrance exam, and subsequent round of counselling. Diploma in Fashion Design course covers all aspects of fashion from the source of inspiration to the production of an original prototype. It emphasizes on developing personal responsibility and identity. The focus is to help each student recognize their true potential, and develop their aptitude in their area of expertise. With the foundation based on the experience, expertise and workshops conducted by Industry Professionals the students would be able to develop a strong basis for their skill sets."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

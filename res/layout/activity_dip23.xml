@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip23">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_information_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in IT is a one-year diploma course that studies Information Technology in detail. Students who have completed Higher Secondary or 10th standard from a recognized School can pursue this course. The scope of Information Technology is as vast as all companies, businesses and retailers run on Information Technology. There are no entrance tests for this course. Information technology (IT) is referred to as the application of computers which can store, retrieve, transmit and share data. The information can be in the context of a business or other area of the market. IT is also considered as a subset of information and communications technology (ICT)."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

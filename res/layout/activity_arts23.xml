@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts23">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="BBA LLB"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          Bachelor of Laws (Latin: Legum Baccalaureus; LL.B.) is an undergraduate law degree in England and most common law jurisdictions—except the United States and Canada— which allows a person to become a lawyer.[1] It historically served this purpose in the U.S. as well, but was phased out in the mid-1960s in favour of the Juris Doctor degree, and Canada followed suit.[2] Bachelor of Laws is also the name of the law degree awarded by universities in Scotland and South Africa.
+The first academic degrees were all law degrees in medieval universities, and the first law degrees were doctorates.[3][4][5] The foundations of the first universities were the glossators of the 11th century, which were also schools of law.[6] The first university, that of Bologna, was founded as a school of law by four famous legal scholars in the 12th century who were students of the glossator school in that city. The University of Bologna served as the model for other law schools of the medieval age.[7] While it was common for students of law to visit and study at schools in other countries, such was not the case with England because of the English rejection of Roman law (except for certain jurisdictions such as the Admiralty Court), and although the University of Oxford and University of Cambridge did teach canon law until the English Reformation, its importance was always superior to civil law in those institutions.["/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip10">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_automobile_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Automobile Engineering is a full-time 3-year Diploma level Automobile engineering course. Automobile engineering is the sub-branch of Mechanical Engineering. Candidates who have completed 10th examination with 60% marks and mathematics and science as main subjects of study from a recognized board are eligible for Diploma in Automobile Engineering course. Diploma in Automobile Engineering course includes mechanical engineering, electronic engineering, electrical engineering, safety engineering as applied to the design, software engineering, manufacture and operation of automobiles, and their respective subsystems."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

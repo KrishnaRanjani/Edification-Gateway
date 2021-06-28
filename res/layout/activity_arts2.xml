@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts2">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:text="Bachelor of Business Administration"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="279dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:layout_marginRight="190dp"
+            android:text="          Bachelor of Business Administration or BBA is one of the most popular bachelor degree programmes after class XII. The 3-year professional undergraduate course in Business Management is open to students from all the three streams: Science, Arts and Commerce. The BBA course is the gateway to numerous job opportunities in a plethora of sectors like marketing, education, finance, sales, and government to name just a few.The BBA course offers knowledge and training in management and leadership skills, to prepare them for managerial roles and entrepreneurship. During the tenure of the course, candidates learn various aspects of business administration and management through class room lectures and practical projects like internship.
+In the United States, the degree is conferred after four years of full-time study in one or more areas of business concentrations. In Europe, the degree is conferred after three years of full-time study in one or more areas of business concentrations. The BBA program usually includes general business courses and advanced courses for specific concentrations.
+
+The 4-year degree program provides a fundamental education in business and management principles. Programs typically allow students to specialize in one of multiple concentration areas, including international business, finance, real estate, computer information systems, or accounting. BBA programs can offer practical management training that can prepare students to successfully work within a large or small organization."/>
+    </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text=" BBA Finance"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="BBA in Banking and Insurance"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="BBA Information Technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="BBA Human Resource"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="BBA Marketing"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="BBA Communication and Media Management"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="190dp"
+                android:text="BBA Foreign Trade"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

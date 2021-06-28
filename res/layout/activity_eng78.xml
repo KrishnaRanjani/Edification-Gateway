@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng78">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/manufacturing_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Manufacturing Engineering deals with different manufacturing practices and the research and development of systems, processes, machines, tools and equipment. Manufacturing engineering trains a student to understand the process of manufacturing from conceptualizing to packing and delivering a finished product in a marketable form. The course also teaches students to handle machines involved in the process of converting raw materials into a brand new product. A student of this discipline also learns to rationalize production cost in a manner so as to increase the return on investment and making the product cost effective. The sub disciplines of Manufacturing Engineering include Mechanics, Kinematics, Drafting, Mechatronics among others. This field also deals with the integration of different facilities and systems for producing quality products (with optimal expenditure) by applying the principles of physics and the results of manufacturing systems studies."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

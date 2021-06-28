@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".lawclg">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/ex12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="55dp"
+                android:textColor="#7d0552"
+                android:textStyle="bold"
+                android:text="@string/law_institutes"
+                android:textSize="25sp"
+                android:layout_marginStart="13dp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/kjuy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="25dp"
+                android:textColor="#e4287c"
+                android:textStyle="bold"
+                android:text="@string/top_10_law_clg"
+                android:textSize="25sp"
+                android:layout_marginStart="13dp" />
+        </TableRow>
+
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/law1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/national_law_school_of_india_university_bangalore"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/law2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/national_law_university_new_delhi"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/law3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/nalsar_university_of_law_hyderabad"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/law4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/rajiv_gandhi_school_of_intellectual_property_law_indian_institute_of_technology_kharagpur"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/law5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/national_law_university_jodhpur"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/law6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/jindal_global_law_school_sonipat"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/law7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/gujarat_national_law_university_gandhinagar"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/law8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/national_law_institute_university_bhopal"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/law9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/rajiv_gandhi_national_university_of_law_patiala"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/law10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/earthblue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/faculty_of_law_university_of_delhi_delhi"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/refer2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#9f000f"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/click_here_to_know_more_about_law"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

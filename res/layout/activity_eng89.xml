@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng89">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/nuclear_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Nuclear engineering is the branch of engineering concerned with the application of breaking down atomic nuclei (fission) or of combining atomic nuclei (fusion), or with the application of other sub-atomic processes based on the principles of nuclear physics. In the sub-field of nuclear fission, it particularly includes the design, interaction, and maintenance of systems and components like nuclear reactors, nuclear power plants, or nuclear weapons. The field also includes the study of medical and other applications of radiation, particularly Ionizing radiation, nuclear safety, heat/thermodynamics transport, nuclear fuel, or other related technology (e.g., radioactive waste disposal) and the problems of nuclear proliferation.This field also includes chemical engineering and electrical engineering as well."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link89"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

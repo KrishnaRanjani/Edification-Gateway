@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts8">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Bachelor of Fashion Designing"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          The robust course is designed in such a manner that it can transform an unstructured and fragmented creativity into a channeled and structured form. It helps eligible candidates with creative minds to utilize the most of it and learn about the market and other areas where such creativity can be implemented. The course teaches enrolled students compactly about the trends in the ever-changing fashion industry.
+
+The program offers students enough practical exposure to build and develop their interpersonal skills. The course also focuses on developing an entrepreneurship spirit inside the students, by attempting to nurture the existing skills inside the students and teaching them about the fashion industry, manufacturing industry, and fabric or clothing sectors. The course prepares candidates for wide-ranging job profiles including but not limited to, Fashion Designers, Production Designers, Fashion Stylist etc.
+
+Bachelor of Fashion Design: Who Should opt?
+Aspiring eligible candidates with a knack for the creative world of fashion and interest in exploring the areas of glitz and glamor may ideally enroll for the program. Most of the skills that one needs to have to successfully complete the course are developed during the stretch of the course."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

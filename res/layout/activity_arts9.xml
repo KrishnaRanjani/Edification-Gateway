@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts9">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Bachelor of Elementary Education"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          The Bachelor of Elementary Education (B.El.Ed) programme is a four-year integrated professional degree programme of Elementary Teacher Education offered after the senior secondary (class XII) stage of school. This is a bilingual programme, conceptualized by the Maulana Azad Centre for Elementary and Social Education (MACESE) of the Department of Education, University of Delhi. Launched in the academic year 1994-95, the programme was an attempt towards fulfilling the need for professionally qualified elementary school teachers. B.El.Ed is designed to integrate the study of subject knowledge with human development, pedagogical knowledge and communication skills. Both professional and academic options are available to the students who graduate with a B.El.Ed. degree.The B.El.Ed Programme aims to produce graduates of high caliber in the field of elementary teacher education. The programme is intensive and focused to prepare teachers and attempts are made to provide a supportive and stimulating environment. Given below are some of the professional and academic options available for the B.El.Ed graduates:
+• Teaching in elementary schools (Classes I to VIII): B.El.Ed graduates are eligible for appointment in MCD, NDMC, Sarvodaya Vidyalayas in Delhi, Kendriya Vidyalayas and Navodaya Vidyalayas all across India and also in private schools.
+
+• Leading elementary school systems in various capacities like curriculum developers, content designers etc.
+
+• Pursuing research in elementary education in the government and non- government sectors.
+
+• Pursuing post-graduate courses and research studies in education and related disciplines.
+
+• Serving as teacher-educators in various State Institutes and University Departments/Colleges offering training in elementary/ secondary education."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

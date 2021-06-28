@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip14">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_computer_science_and_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Computer Science and Engineering is a 3 to 4-year long professional course in engineering. The course can also be pursued after successful completion of the 10+2 level of education in the Science stream from a recognized educational Board with minimum 50% aggregate marks.  Also, 10+2 or ITI-qualified students can avail admission to the course’s second year. This technical course aims to offer to eligible candidates basic learning in disciplines like Engineering, Science, Computing, Mathematical techniques and English to communicate. The course includes computer science subjects such as Programming, Data structures, Digital logic, Theoretical computer science, Algorithms, Computer networks, Operating systems, Web technologies, and Databases and Computer Architecture."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng85">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000080"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="@string/nano_technology_engineering"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="279dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_marginRight="190dp"
+            android:text="       Nanotechnology is the formation of structures at a molecular level and testing the complex machines at the level of molecules which are measured in nanometers only. In other words ‘Nanotechnology’ also refers to the estimated capability to build items or products by using scratch and making use of various tools and techniques to make and complete, high quality performance products. Research in the field of nanotechnology has been rising by leaps and bounds over the years, though the technology is only in its emerging stage. It has found its usage in various fields including electronics, power generation and many other industrial segments. The possible applications of nanoscale devices in the field of medicine are mind-boggling and make one wonder if they are caught in the middle of a science fiction movie."/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/link85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/earthblue"
+            android:textSize="25dp"
+            android:text="Click here to more information"/>
+    </TableRow>
+</TableLayout>
+
+</ScrollView>

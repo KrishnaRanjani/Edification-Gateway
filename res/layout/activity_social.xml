@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".social">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <Button
+                android:id="@+id/SOC"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="295dp"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#E3E4FA"
+                android:textColor="#0020C2"
+                android:textSize="20sp"
+                android:text="SELECT YOUR INTERESTED
+                SOCIAL COURSE"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="220dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/logo" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC1"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="35dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Nurse"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/SOC2"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="217dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:textColor="#571b7e"
+            android:textSize="20sp"
+            android:text="Physiotherapist"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="217dp" />
+
+    </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC3"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Speech Therapist"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC4"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Air hostess"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC5"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Anchor"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC6"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Bodyguard"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC7"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Border Security Forc"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC8"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="community development"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC9"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Counsellor"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC10"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="criminologist"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC11"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="journalist"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC13"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="language specialist"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC14"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="LIBRARY ASSISTANT"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC15"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="media personnel"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC16"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="model"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC17"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Protective Service Personnel"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC18"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Secretary"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC19"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Sociologist"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/SOC20"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="217dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:textColor="#571b7e"
+                android:textSize="20sp"
+                android:text="Teacher"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="217dp" />
+
+        </TableRow>
+
+</TableLayout>
+
+</ScrollView>

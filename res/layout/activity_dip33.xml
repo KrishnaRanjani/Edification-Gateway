@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".dip33">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_textile_design"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Textile Designis a 1-year diploma level fashion designing course. The basic eligibility of this course is  10+2 with at least 55% of marks. Admission process of this course is carried out based on the candidate’s performance in their high school exams. Some institutes may include their entrance exam score. Diploma in Textile Designis a course that is related to textile design that can also be studied alongside other design majors such as Fashion Designing. This course is helpful in providing an opportunity for the candidates to provide specialized knowledge and skills including the ability to develop design concepts, generate ideas and execute a range of screen printed, machine knitted or woven fabrics for a variety of applications and technical specifications."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

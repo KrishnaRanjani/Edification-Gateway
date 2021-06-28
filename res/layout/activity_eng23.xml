@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng23">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/carpet_and_textile_technology"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Bachelor of Technology in Carpet and Textile Technology is a four year undergraduate program provided by institutes/universities in the field of textile technology. 10+2 pass candidates who have opted for science can apply for this course. B.Tech. in Carpet and Textile Technology is a relatively new course in the field of engineering or technology. Employment opportunities for textile engineers are available in textile and fashion industry.
+
+Admissions in Bachelor of Technology in Carpet and Textile Technology can be obtained through entrance examinations conducted at national, state or institutional level. The candidates are required to study subjects like textile mechanics and textile chemistry. Average fee of the course is INR 150,000; it is relatively less for government institutes. Candidates applying must have prior knowledge of basic chemistry and physics."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>

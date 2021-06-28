@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts14">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Aviation courses"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          “Air traffic in India rose 15.80 per cent year-on-year to 280.24 million during April-February 2017-18. Witnessing a growth of 18.50 per cent over the previous year, total passenger traffic stood at a 264.97 million in FY17. As of March 2018, there are nearly 550 commercial aircrafts in operation in India”, as reported by India Brand Equity Foundation (IBEF).
+
+Aviation as a course and career profile is only for those who are passionate about this field. Apart from acquiring in-depth knowledge of machines, aviation requires people in its work force to have considerable knowledge of the work profile of individuals working in other departments of the industry as well.
+
+In aviation industry aspirants have a plethora of job opportunities available to them ranging from ground staff, engineers, cabin crew to becoming a pilot.
+
+The BFA assists the candidate grow in the area of subject chosen. From fine arts to visual arts to performing arts, here aspirants can check colleges according to location which can help candidates pursue BFA."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

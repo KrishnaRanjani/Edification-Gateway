@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".cpg2">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginLeft="20dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
+                android:src="@drawable/logo" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#0041c2"
+                android:text="Eligibility Criteria for  course"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/pga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#E42217"
+                android:text="Eligible Qualifications:"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/pgb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="B.E. / B.Tech."/>
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/asset7"
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="170dp"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:text=  "1.Electrical and Electronics Engg.
+                                2.Electronics  and Communication Engg.
+                                3.Electronics  and Instrumentation Engg.
+                                4.Instrumentation and Control Engg.
+                                5.Computer Science and Engg.
+                                6.Electronics Engg.
+                                7.Instrumentation Engg.
+                                8.Information Technology
+                                9.Software Engineering.
+"
+
+                />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</ScrollView>

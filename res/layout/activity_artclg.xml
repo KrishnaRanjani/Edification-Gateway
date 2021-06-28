@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".artclg">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/ex132"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="55dp"
+                android:textColor="#7d0552"
+                android:textStyle="bold"
+                android:text="@string/arts_institutes"
+                android:textSize="25sp"
+                android:layout_marginStart="13dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/kj3uy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="25dp"
+                android:textColor="#e4287c"
+                android:textStyle="bold"
+                android:text="@string/top_10_arts_clg"
+                android:textSize="25sp"
+                android:layout_marginStart="13dp" />
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:id="@+id/arts1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0000a0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/lady_shri_ram_college_lsr_for_women_new_delhi"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/arts2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0000a0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/loyola_college_chennai"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:id="@+id/arts3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0000a0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/christ_university_bangalore"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/arts4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0000a0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/st_xavier_s_college_mumbai"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/arts5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0000a0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/miranda_house_new_delhi"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/arts6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0000a0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/hansraj_college_delhi"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/arts7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0000a0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/shri_ram_college_of_commerce_delhi"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/arts8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0000a0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/hindu_college_new_delhi"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/arts9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0000a0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/ramjas_college_delhi"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="80dp" />
+
+
+        </TableRow>
+        <TableRow >
+
+            <TextView
+                android:id="@+id/arts10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0000a0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/madras_christian_college_chennai"
+                android:layout_marginEnd="80dp"
+                android:layout_marginStart="10dp" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

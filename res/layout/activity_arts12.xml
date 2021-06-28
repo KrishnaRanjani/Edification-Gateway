@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts12">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Bachelor of Social Work"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          Bachelor of Social Work or BSW is a professional degree that is offered at the undergraduate (UG) level. The duration of a BSW course is usually three years and candidates need to positively complete the course within a maximum duration of six years.
+
+Candidates can undertake BSW as a full time course or even pursue it as a Correspondence/ Distance Education course. BSW course mostly comprises of three major parts which are foundation course, elective course and field work.
+
+BSW course is offered in both English and Hindi language. Some common topics that candidates are made to study in a BSW course include Introduction to Social Work, Social Problems in India, Social Work Research and Statistics, Social Work Administration and the likes."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

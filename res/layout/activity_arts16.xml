@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts16">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Bachelor of Travel and Tourism Management"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          The travel and tourism industry in India is currently experiencing unprecedented growth. The industry is one of the largest and most profitable industries in India and contributes significantly to the foreign exchange earned. As per various studies, the industry is expected to create over 45 million jobs in India by 2025.
+
+Students have endless career opportunities in this fast growing industry of travel and tourism. Candidates looking to pursue their career in the industry can choose to work for travel agencies, government tourism departments, tour operations, immigration and customs services, airlines, hotels, and the list continues.
+
+Candidates can pursue a degree, diploma, or certificate course in travel and tourism at graduation or post-graduation level. Candidates can also pursue PhD in their chosen subject of travel and tourism to build their career in the field of research.
+
+Know what all a travel and tourism course has to offer in terms of the course curriculum, job profiles, top recruiters, and more."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

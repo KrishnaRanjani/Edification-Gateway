@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip27">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_library_and_information_sciences"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Library and Information Science (DLIS) is a certificate level course in the domain of library sciences with a focus on the development of fundamental skills and knowledge among students in regards to the efficient collection, management, and decimation of information. The course is offered to candidates who have completed their 10+2 or equivalent level education with a minimum of 50% marks (Relaxable for reserved category candidates) from a recognized board/institute. Those who have done a diploma after class 10th as a part of 10 +3 pattern of education can also apply for admission to the course. The course is structured as beginner’s level program in the respective domain with a focus on imparting holistic knowledge in regards to the fundamental concept and principles of library science and management. A student can opt for an advanced level diploma in the long run for enhancement of skill and knowledge set in the domain."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

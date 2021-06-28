@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng63">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/geo_informatics"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Geoinformatics deals with the study of earth and its allied informatics. It is the scientific technology dealing with the spatial information - the digital connection between location, people, and activities. This information can graphically illustrate what is happening (where, how and why) to show the insight and impact of the past, the present and the (likely) future. And it ends with a map that a common man can easily understand and interpret. BE/B.Tech in Geo-Informatics is a 4-year program. The use of Geoinformatics helps to tackle the problems related to Geography, Geoscience and related branches of Engineering. There is much geospatial software like ArcGIS, ENVI, Micro Station and other opensource software like QGIS, GRASS, SAGA which helps in GIS analysis. You can pursue M.Tech in Geo-Informatics after successful completion of BE/B.Tech"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

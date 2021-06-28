@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip13">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_computer_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Computer Engineering course is a 3-year diploma level course. The minimum eligibility for which is 10th schooling with at least minimum aggregate marks. Admission to this course depends on candidate’s performance in their high school exams. Some institutes conduct entrance exam. Diploma in Computer Engineering course covers the basic topics from computer programming, operating system, networking etc. The course expects students with good communication skills.The successful candidates can look for opportunities in areas like Manufacturing companies, telecommunication companies, financial companies, retail companies, agricultural industries etc. They can take up their job positions like programmer, system analyst, cloud architect among many others."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

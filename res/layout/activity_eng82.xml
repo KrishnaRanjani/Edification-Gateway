@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent"
+    tools:context=".eng82">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/mineral_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Mineral engineers are inevitably the show stealers. Starting from soap and toothpaste to construction of phones, computers, glass, planes, trains, automobiles to making cooking utensils, they are needed in all these industries. From identification of mines and quarries to supervision and management of extraction operations and designing of ore and mineral processing plants, a well trained mineral engineer does it all.
+Mineral Engineering courses are a blend of mathematics, physics, and chemistry apart from geology and various environmental sciences. On successful completion of the course, a student learns the trade of processing and extraction of minerals in an environment-friendly manner.
+"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

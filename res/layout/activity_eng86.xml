@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng86">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/nano_technology_and_robotics"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Nanomachines are largely in the research and development phase,[8] but some primitive molecular machines and nanomotors have been tested. An example is a sensor having a switch approximately 1.5 nanometers across, able to count specific molecules in a chemical sample. The first useful applications of nanomachines may be in nanomedicine. For example,[9] biological machines could be used to identify and destroy cancer cells.[10][11] Another potential application is the detection of toxic chemicals, and the measurement of their concentrations, in the environment. Rice University has demonstrated a single-molecule car developed by a chemical process and including Buckminsterfullerenes (buckyballs) for wheels. It is actuated by controlling the environmental temperature and by positioning a scanning tunneling microscope tip."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

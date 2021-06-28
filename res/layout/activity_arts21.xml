@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts21">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Print Media"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          Simply stated, print media is the printed version of telling the news, primarily through newspapers and magazines. Before the invention and widespread use of printing presses, printed materials had to be written by hand. It was a painstaking process that made mass distribution impossible.
+
+At first, news was chiseled in stone. Later, it was handwritten and posted in a public area much like today's posters or read from a scroll by a town crier. As early as 131 B.C., the ancient Roman government produced daily news sheets and informed the public in this way. Through the years, print media evolved to include entertainment, educational topics and more, instead of only conveying news."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

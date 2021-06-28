@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".arts5">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Bachelor of Hotel Management"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12dp"
+                android:layout_marginRight="190dp"
+                android:text="          Do you have an impressive personality or possess extremely good communication skills? Then hospitality is a good career choice for you. Hospitality management as a profession requires one to possess strong interpersonal communication skills, be meticulous and have business sense.
+
+The first step in making a career in the field of hospitality is to pursue a course from a good college and one of the most popular programmes pursued by students right after their Class 12 in this field is Bachelor of Hotel Management (BHM).
+
+BHM is an undergraduate course which spans for a duration of three years. However, some colleges such as Welcomgroup Graduate School of Hotel Administration offer it as a four-year degree programme.
+
+As part of a BHM course, candidates are taught about different facets of the hospitality industry. Thus, in a BHM course aspirants are taught food and beverage preparation, housekeeping operations, front office operations, computer applications, business communication, accommodation operation, corporate finance, sales, marketing, public relations etc. BHM course is known to have theory as well as practical subjects.
+
+The BHM course also emphasises on developing and enhancing personal skills of an aspirant as a good personality is a must in this career path. Apart from this, the BHM course also educates students on aspects such as hygiene, food safety as well as nutrition that is in tune with international standards."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

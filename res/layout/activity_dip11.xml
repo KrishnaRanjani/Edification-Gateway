@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip11">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_chemical_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Chemical Engineering is an undergraduate program pursued after 10th grade. The duration of the course is 3 years which can differ based on college norms. The eligibility criteria for the course is qualifying 10th examination with minimum aggregate marks of 45% in Science and Mathematics from a recognized board. Candidates can avail for the program post the completion of their Class Xth examination, There is no entrance examination or GD/PI process held for availing for admission. The admission is carried out solely on merit list. Diploma in Chemical Engineering course offers an integrated study of applying physical science with life science along with mathematics and economics in converting raw materials into finished products."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng69">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/information_science_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       The study of Information Science deals with the collection, categorization, strategizing, storage and distribution of information. It is an interdisciplinary field primarily concerned with analysis, collection, classification, manipulation, storage, retrieval, movement, and dissemination of information. This discipline is a combination of interdisciplinary aspects that includes computer science, management, mathematics, communications, law, social sciences, philosophy, public policy and many more. The study of Information Science also focuses on investigation of properties and behavior of information. The information Science engineers are expected to study the application and usage of knowledge in organizations, along with the interaction between people, organizations and any existing information systems and aim to create, replace, improve or understand the information systems"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

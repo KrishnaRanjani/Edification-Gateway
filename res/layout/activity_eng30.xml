@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng30">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#000080"
+                android:textSize="25dp"
+                android:text="@string/civil_environmental_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Environmental engineering is a professional engineering discipline that takes from broad scientific topics like chemistry, biology, ecology, geology, hydraulics, hydrology, microbiology, and mathematics to create solutions that will protect and also improves the health of living organisms and improve the quality of the environment.[1][2] Environmental engineering is a sub-discipline of civil engineering and chemical engineering.
+
+Environmental engineering is the application of scientific and engineering principles to improve and maintain the environment to:
+
+protect human health,
+protect nature's beneficial ecosystems,
+and improve environmental-related enhancement of the quality of human life.
+Environmental engineers devise solutions for waste water management, water and air pollution control, recycling, waste disposal, and public health.[2][3] They design municipal water supply and industrial wastewater treatment systems,[4][5] and design plans to prevent waterborne diseases and improve sanitation in urban, rural and recreational areas. They evaluate hazardous-waste management systems to evaluate the severity of such hazards, advise on treatment and containment, and develop regulations to prevent mishaps. They implement environmental engineering law, as in assessing the environmental impact of proposed construction projects."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".eng81">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000080"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:text="@string/micro_biology_and_immunology_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="       Microbiology is the study of the microscopic organisms. Its branches can be classified as pure and applied sciences. The disciplines like virology, mycology, parasytology, bacteriology etc. The task of a microbiologist is to investigate the growth, structure, development, and other characteristics of microscopic organisms, such as bacteria, algae, or fungi. Medical microbiologists study the relationship between organisms and disease or the effects of antibiotics on microorganisms. Immunology is the branch of biomedical science which covers all aspects of the immune system in all organisms. Immunology is a branch of biomedical science that covers the study of all aspects of the immunity system of an organism. It includes the physiological functioning of the immune system in the state of disease as well as good health in order to study the malfunctions of the immune system.Microbiology is the study of the microscopic organisms. Its branches can be classified as pure and applied sciences. The disciplines like virology, mycology, parasytology, bacteriology etc. The task of a microbiologist is to investigate the growth, structure, development, and other characteristics of microscopic organisms, such as bacteria, algae, or fungi. Medical microbiologists study the relationship between organisms and disease or the effects of antibiotics on microorganisms. Immunology is the branch of biomedical science which covers all aspects of the immune system in all organisms. Immunology is a branch of biomedical science that covers the study of all aspects of the immunity system of an organism. It includes the physiological functioning of the immune system in the state of disease as well as good health in order to study the malfunctions of the immune system."/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/link81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/earthblue"
+                android:textSize="25dp"
+                android:text="Click here to more information"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

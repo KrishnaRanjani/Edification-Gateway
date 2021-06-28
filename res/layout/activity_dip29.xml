@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture"
+    tools:context=".dip29">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:textStyle="bold"
+                android:text="@string/diploma_in_marine_engineering"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_marginRight="190dp"
+                android:text="          Diploma in Marine Engineering is a 1 to 3-year full-time course. The minimum eligibility for admission in which is a 55% score in the 10+2 examination with Physics, Chemistry and Mathematics as subjects or any other equivalent or higher academic course pursued from a recognized university.
+Diploma in Marine Engineering is a program designed in such a way that it helps the budding marine engineers in carrying out smooth and efficient operations, maintain the ship propulsion part, maintain all the engineering equipments at the port as well as in the ship etc. The course curriculum includes areas like Ship Construction and Ship Stability, Marine Power Plant etc. which open up a wide range of learning for the candidates."/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>
