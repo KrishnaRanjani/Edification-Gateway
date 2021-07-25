@@ -17,7 +17,7 @@
 ## Proposed Architecture :student:
 
 
-* In Our proposed system Edification gateway application will assist the user in choosing the best organized and productive options for the educational careers.
+* Edification gateway application will assist the user in choosing the best organized and productive options for the educational careers.
 * The projected system offers elaborate descriptive information about the courses offered for the higher secondary students, graduates, and details on the competitive exams. 
 * The user can search according to their space of interest. 
 * The details about the top institutions with a particular field are listed. 
